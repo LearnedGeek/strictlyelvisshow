@@ -1,0 +1,12 @@
+{
+  "name": "the-strictly-elvis-show",
+  "version": "1.0.0",
+  "description": "The Strictly Elvis Show - Wisconsin's Premier Elvis Tribute",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/styles.css -o ./src/css/output.css --watch",
+    "build": "npx tailwindcss -i ./src/css/styles.css -o ./src/css/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
