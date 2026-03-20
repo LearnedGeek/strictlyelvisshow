@@ -2,7 +2,33 @@
   publish = "src"
   command = "npm run build"
 
+# Serve clean URLs (e.g., /about instead of /about.html)
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/shows"
+  to = "/shows.html"
+  status = 200
+
+[[redirects]]
+  from = "/events"
+  to = "/events.html"
+  status = 200
+
+[[redirects]]
+  from = "/media"
+  to = "/media.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/areas-we-serve"
+  to = "/areas-we-serve.html"
   status = 200

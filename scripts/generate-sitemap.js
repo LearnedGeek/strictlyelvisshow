@@ -5,9 +5,12 @@ const glob = require('path');
 const SITE_URL = 'https://thestrictlyelvisshow.com';
 const SRC_DIR = path.join(__dirname, '..', 'src');
 
+// Pages to exclude from sitemap (noindex pages)
+const EXCLUDE = ['404.html', 'thank-you.html'];
+
 // Scan for all HTML files in src/
 const htmlFiles = fs.readdirSync(SRC_DIR)
-  .filter(f => f.endsWith('.html'))
+  .filter(f => f.endsWith('.html') && !EXCLUDE.includes(f))
   .sort();
 
 // Build sitemap entries
