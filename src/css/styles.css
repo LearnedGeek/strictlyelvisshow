@@ -12,6 +12,7 @@
   body {
     background-color: #121110;
     color: #ECE5D8;
+    overflow-x: hidden;
   }
 }
 
@@ -113,6 +114,9 @@
   }
 
   /* Spotlight on CTA */
+  .cta-section {
+    overflow: hidden;
+  }
   .cta-section::before {
     content: '';
     position: absolute;
@@ -135,6 +139,7 @@
   /* Section spotlight glow — ambient stage light */
   .spotlight-section {
     position: relative;
+    overflow: hidden;
   }
 
   .spotlight-section::before {
