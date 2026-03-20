@@ -113,12 +113,21 @@ function onOpen() {
 
 ---
 
+## Google Sheet Details
+
+- **Published CSV URL:** https://docs.google.com/spreadsheets/d/e/2PACX-1vRWYfyO4KTSwI3UfvA5zGyUcucXVj91ULyFtoNb3ER5Ti-ALqlChz74V716o79GcpC46vqgnh_JB4IV/pub?output=csv
+- **Sheet ID:** Extract from the edit URL (the string between `/d/` and `/edit`)
+- **Netlify Build Hook URL:** *(to be created — see step 2)*
+
+---
+
 ## 4. Configure Environment Variable on Netlify
 
 1. Go to https://app.netlify.com/sites/strictlyelvisshow/settings/env
-2. Add variable:
-   - Key: `GOOGLE_SHEET_ID`
-   - Value: The Sheet ID from step 1 (the long string from the URL)
+2. Add ONE of these variables (either works):
+   - Key: `GOOGLE_SHEET_CSV_URL` — Value: The full published CSV URL (preferred)
+     `https://docs.google.com/spreadsheets/d/e/2PACX-1vRWYfyO4KTSwI3UfvA5zGyUcucXVj91ULyFtoNb3ER5Ti-ALqlChz74V716o79GcpC46vqgnh_JB4IV/pub?output=csv`
+   - OR Key: `GOOGLE_SHEET_ID` — Value: The Sheet ID from the edit URL
 
 ---
 

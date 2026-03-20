@@ -3,11 +3,11 @@ const path = require('path');
 const https = require('https');
 
 // Google Sheet published as CSV
-// Replace SHEET_ID with the actual Google Sheet ID once created
+// Supports either a full published URL or a Sheet ID
+const SHEET_CSV_URL = process.env.GOOGLE_SHEET_CSV_URL || '';
 const SHEET_ID = process.env.GOOGLE_SHEET_ID || '';
-const SHEET_URL = SHEET_ID
-  ? `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv`
-  : '';
+const SHEET_URL = SHEET_CSV_URL
+  || (SHEET_ID ? `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv` : '');
 
 const OUTPUT_PATH = path.join(__dirname, '..', 'src', 'data', 'events.json');
 
