@@ -247,6 +247,7 @@ strictly-elvis-poc/
 - [ ] Event calendar with actual functionality
 - [ ] Social media feed integration
 - [ ] Google Analytics setup
+- [ ] **SEO "Areas We Serve" page** — Hidden from nav, included in sitemap. One section per target city (Milwaukee, Waukesha, Madison, Kenosha, Racine, Green Bay, Beloit) with location-specific keywords like "Elvis tribute entertainment in Milwaukee" etc. Same pattern as lakecountryspanish.com/Home/AreasWeServe. Helps Google rank for local searches without cluttering the navigation.
 
 ### What to Demonstrate to Client
 1. **Speed:** Show side-by-side load time comparison (GoDaddy vs Netlify)

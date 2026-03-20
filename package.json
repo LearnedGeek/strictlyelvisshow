@@ -4,7 +4,7 @@
   "description": "The Strictly Elvis Show - Wisconsin's Premier Elvis Tribute",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/css/styles.css -o ./src/css/output.css --watch",
-    "build": "npx tailwindcss -i ./src/css/styles.css -o ./src/css/output.css --minify"
+    "build": "npx tailwindcss -i ./src/css/styles.css -o ./src/css/output.css --minify && node scripts/generate-sitemap.js"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.0"

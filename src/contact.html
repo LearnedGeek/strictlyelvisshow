@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us | The Strictly Elvis Show - Book Elvis Entertainment in Wisconsin</title>
   <meta name="description" content="Book The Strictly Elvis Show for your next event in Wisconsin. Contact Alan Graveen for Elvis tribute performances and entertainment. Serving Milwaukee, Waukesha, Madison, and beyond.">
+  <link rel="canonical" href="https://thestrictlyelvisshow.com/contact">
+  <meta property="og:title" content="Contact Us | The Strictly Elvis Show">
+  <meta property="og:description" content="Book The Strictly Elvis Show for your next event. Serving Milwaukee, Waukesha, Madison, and beyond.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thestrictlyelvisshow.com/contact">
+  <meta property="og:site_name" content="The Strictly Elvis Show">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/css/output.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,7 +72,8 @@
         <div class="md:w-1/2 mb-10 md:mb-0">
           <div class="m3-card !p-8">
             <h2 class="text-xl font-heading font-semibold mb-6">Send a Message</h2>
-            <form id="contact-form" class="space-y-5" action="#" method="POST">
+            <form id="contact-form" class="space-y-5" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
               <div>
                 <label for="name" class="block text-sm font-medium text-on-surface-variant mb-1.5">Name</label>
                 <input type="text" id="name" name="name" required
@@ -118,7 +125,6 @@
               <div>
                 <p class="text-sm font-medium text-on-surface-variant mb-1">Business</p>
                 <p class="font-semibold">The Strictly Elvis Show</p>
-                <p class="text-on-surface-variant text-sm">Magic Moments DJ</p>
               </div>
               <div>
                 <p class="text-sm font-medium text-on-surface-variant mb-1">Address</p>
