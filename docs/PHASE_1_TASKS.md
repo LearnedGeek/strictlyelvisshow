@@ -105,11 +105,38 @@ Hidden from nav, included in sitemap. Same pattern as lakecountryspanish.com/Hom
 
 - [ ] Fully functional custom website on Netlify
 - [ ] Custom domain configured with HTTPS
-- [ ] Schema.org markup implemented
-- [ ] Location-specific landing pages
-- [ ] Working contact form
-- [ ] All Phase 0 SEO improvements preserved and enhanced
+- [x] Schema.org markup implemented *(3/19)*
+- [x] Location-specific landing pages *(3/19)*
+- [x] Working contact form *(3/19 — Netlify Forms with honeypot + thank-you page)*
+- [x] All Phase 0 SEO improvements preserved and enhanced *(3/19)*
 - [ ] GoDaddy builder cancellation guidance for Alan
+- [x] Custom 404 page — "Elvis Has Left the Page" *(3/19)*
+- [x] Custom thank-you page for form submissions *(3/19)*
+- [x] Favicon with gold star accent *(3/19)*
+- [x] GA4 snippet stubbed — needs measurement ID from Alan *(3/19)*
+- [x] Click-to-play video gallery — no iframes on initial load *(3/19)*
+- [x] Clean URL redirects (/about instead of /about.html) *(3/19)*
+
+## Lighthouse Performance Scores
+
+**Netlify site (mobile) — progression:**
+
+| Run | Performance | Accessibility | Best Practices | SEO |
+|-----|:----------:|:------------:|:--------------:|:---:|
+| Initial (pre-optimization) | 76 | 98 | 100 | 92 |
+| +Image compression (600KB→78KB) | 85 | 98 | 100 | 92 |
+| +Async Google Fonts | **90** | **98** | **100** | **92** |
+
+**Comparison: Netlify vs GoDaddy (mobile):**
+
+| Category | GoDaddy | Netlify | Winner |
+|----------|:-------:|:-------:|:------:|
+| Performance | 82 | **90** | Netlify |
+| Accessibility | 90 | **98** | Netlify |
+| Best Practices | 96 | **100** | Netlify |
+| SEO | 92 | 92 | Tie |
+
+Reports saved in `docs/client/lighthouse/`
 
 ---
 
