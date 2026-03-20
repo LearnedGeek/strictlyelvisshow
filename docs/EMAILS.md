@@ -388,3 +388,38 @@ If this all sounds good, just say the word and I'll send the Phase 1 invoice for
 
 Warmly,
 Mark
+
+-----------------------------------------
+
+From: "Alan Graveen" <elvisg@wi.rr.com>
+To: Mark McArthey, Jacque Graveen
+Sent: March 20, 2026 5:48 AM
+Subject: Re: Payment received — Phase 1 Details
+
+Mark , the 1,500 later I the yr would work out great I think and jumping to another site that's affordable for us right now I've also invested in 1,000 upgrade on my show with some backgrounds at my shows so money is tight for now but later in the year say fall would work much better , Jacque knows the finances much better then me . Thank you as well for your generosity on helping me out here it so needed to happen so going forward definitely are going to do phase 1 at the quote of 1,500 then I think we will be all set .Jacque will address this when she reads this as well u will do the Google stuff tomorrow for sure.
+
+Kind Regards
+
+Alan
+
+-----------------------------------------
+
+From: "Mark McArthey"
+To: Alan Graveen, Jacque Graveen
+Sent: March 20, 2026
+Subject: Re: Payment received — Phase 1 Details
+
+Hi Alan & Jacque,
+
+I completely understand — small business budgets are real, and investing in your show always comes first. That $1,000 in stage upgrades is going to look amazing.
+
+Here's what I'd like to propose: let me finish building the new site now, before your GoDaddy renewal on May 6. That way you stop paying ~$15/month for the builder right away — that's almost $200/year back in your pocket.
+
+As for the $1,500 — don't worry about it until this fall. Pay me when the timing is right for you. No deposit, no installments, just one payment whenever you're ready later in the year. You two paid the Phase 0 invoice within hours — I know you're good for it.
+
+Small business helping small business. That's how it should work.
+
+I'll keep building and will have the new site ready for your review in the next couple of weeks. And yes — whenever you get a chance to do the Google Search Console setup, that would be great!
+
+Talk soon,
+Mark

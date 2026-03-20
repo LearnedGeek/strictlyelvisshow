@@ -9,6 +9,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Obfuscate email links to prevent scraping
+  document.querySelectorAll('.email-link').forEach(function(el) {
+    var user = el.getAttribute('data-user');
+    var domain = el.getAttribute('data-domain');
+    var email = user + '@' + domain;
+    el.href = 'mailto:' + email;
+    el.textContent = email;
+  });
+
   // Click-to-play video cards
   document.querySelectorAll('.video-card').forEach(function (card) {
     var placeholder = card.querySelector('.video-placeholder');

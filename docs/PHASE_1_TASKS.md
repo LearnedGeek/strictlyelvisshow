@@ -45,7 +45,8 @@ POC is live at https://strictlyelvisshow.netlify.app — use as starting point.
 
 ## 2. SEO — Built Into the Site
 
-- [x] Schema.org structured data (LocalBusiness + Performer) — JSON-LD on homepage with address, geo, service areas, social, ratings *(3/19)*
+- [x] Schema.org structured data (LocalBusiness + PerformingGroup) — JSON-LD on homepage with address, geo, service areas, social, ratings *(3/19, type fixed 3/20)*
+- [x] Event schema markup on events page — ItemList with Event structured data *(3/20)*
 - [x] Meta titles and descriptions *(all 7 pages done)*
 - [x] Image alt text on all images *(POC has alt text)*
 - [x] Semantic HTML (proper heading hierarchy, landmarks) *(POC complete)*
@@ -69,6 +70,10 @@ Hidden from nav, included in sitemap. Same pattern as lakecountryspanish.com/Hom
 - [x] Racine section *(3/19)*
 - [x] Green Bay section *(3/19)*
 - [x] Beloit section *(3/19)*
+- [x] Appleton / Fox Cities section *(3/20)*
+- [x] Oshkosh section *(3/20)*
+- [x] Fond du Lac section *(3/20)*
+- [x] Sheboygan section *(3/20)*
 - [x] Each section with location-specific keywords and CTA to Contact page *(3/19)*
 
 ---
@@ -116,6 +121,13 @@ Hidden from nav, included in sitemap. Same pattern as lakecountryspanish.com/Hom
 - [x] GA4 snippet stubbed — needs measurement ID from Alan *(3/19)*
 - [x] Click-to-play video gallery — no iframes on initial load *(3/19)*
 - [x] Clean URL redirects (/about instead of /about.html) *(3/19)*
+- [x] Email obfuscation — anti-scraping protection on all pages *(3/20)*
+- [x] Click-to-play media page redesign — consistent cards with title overlays *(3/20)*
+- [x] Fix mobile horizontal scroll — overflow-x hidden on body, spotlight, CTA sections *(3/20)*
+- [x] Add main landmark to all pages for accessibility *(3/20)*
+- [x] Fix generic "Learn more" links with descriptive text *(3/20)*
+- [x] Fix schema.org type: Performer → PerformingGroup *(3/20)*
+- [x] Lighthouse comparison SVG chart for deliverables *(3/20)*
 
 ## Lighthouse Performance Scores
 
@@ -125,16 +137,18 @@ Hidden from nav, included in sitemap. Same pattern as lakecountryspanish.com/Hom
 |-----|:----------:|:------------:|:--------------:|:---:|
 | Initial (pre-optimization) | 76 | 98 | 100 | 92 |
 | +Image compression (600KB→78KB) | 85 | 98 | 100 | 92 |
-| +Async Google Fonts | **90** | **98** | **100** | **92** |
+| +Async Google Fonts | 90 | 98 | 100 | 92 |
+| +Overflow fix + main landmark | 91 | 100 | 100 | 92 |
+| +Descriptive links + schema fix | **100** | **100** | **100** | **100** |
 
 **Comparison: Netlify vs GoDaddy (mobile):**
 
 | Category | GoDaddy | Netlify | Winner |
 |----------|:-------:|:-------:|:------:|
-| Performance | 82 | **90** | Netlify |
-| Accessibility | 90 | **98** | Netlify |
+| Performance | 82 | **100** | Netlify |
+| Accessibility | 90 | **100** | Netlify |
 | Best Practices | 96 | **100** | Netlify |
-| SEO | 92 | 92 | Tie |
+| SEO | 92 | **100** | Netlify |
 
 Reports saved in `docs/client/lighthouse/`
 
@@ -142,11 +156,12 @@ Reports saved in `docs/client/lighthouse/`
 
 ## Waiting On
 
-- [ ] **Alan & Jacque feedback on POC** — what they like/don't like, any feature requests
-- [ ] **Google Search Console access** — still pending from Phase 0
-- [ ] **Banner image replacement** — still pending from Phase 0
+- [x] **Alan & Jacque feedback on POC** — Jacque loved it ("sooooooooooo much better"), provided narrative updates
+- [ ] **Google Search Console access** — Alan said he'll do it "tomorrow" (as of 3/20)
+- [x] **Banner image replacement** — Alan fixed it on GoDaddy (3/19)
 - [ ] **Testimonial event context** — optional, asked in Phase 0 email
-- [ ] **Phase 1 formal approval** — Alan said "definitely want to go to next phase" but no signed scope yet
+- [x] **Phase 1 formal approval** — Alan confirmed "$1,500... definitely are going to do phase 1" (3/20)
+- [ ] **Phase 1 payment** — deferred to fall 2026 per Alan's request; Mark agreed to build now, pay later
 
 ---
 
@@ -156,7 +171,7 @@ Reports saved in `docs/client/lighthouse/`
 - Combines original Phase 1 (Content, $1,000–1,500) with core Phase 2 items (migration, custom build, schema.org, hosting)
 - POC head start reduces build time, but full production site + migration justifies $1,500
 - GoDaddy builder savings: ~$15/month ($180/year) — site pays for itself in under 2 years
-- Payment terms: 50% upfront ($750), 50% upon completion ($750)
+- Payment terms: **Deferred to fall 2026** — full $1,500 when timing is right for client (small business goodwill)
 
 ### Phase 2 — Future Growth & Premium Features ($1,500–$3,000)
 Premium items separated for future engagement:
