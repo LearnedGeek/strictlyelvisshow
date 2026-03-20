@@ -2,6 +2,15 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
+// Load .env file if present (local development)
+const envPath = path.join(__dirname, '..', '.env');
+if (fs.existsSync(envPath)) {
+  fs.readFileSync(envPath, 'utf8').split('\n').forEach(line => {
+    const [key, ...val] = line.split('=');
+    if (key && val.length) process.env[key.trim()] = val.join('=').trim();
+  });
+}
+
 // Google Sheet published as CSV
 // Supports either a full published URL or a Sheet ID
 const SHEET_CSV_URL = process.env.GOOGLE_SHEET_CSV_URL || '';

@@ -141,6 +141,14 @@ Hidden from nav, included in sitemap. Same pattern as lakecountryspanish.com/Hom
 - [x] Fix generic "Learn more" links with descriptive text *(3/20)*
 - [x] Fix schema.org type: Performer → PerformingGroup *(3/20)*
 - [x] Lighthouse comparison SVG chart for deliverables *(3/20)*
+- [x] Google Sheet events pipeline — Alan manages events from a spreadsheet, site auto-updates *(3/20)*
+- [x] Apps Script auto-trigger — edits to sheet trigger Netlify rebuild with 5-min debounce *(3/20)*
+- [x] Events page dynamic rendering from sheet data with Event schema *(3/20)*
+- [x] Event cards elevated styling — gold border, warm shadow, calendar icon, M3 surface treatment *(3/20)*
+- [x] Scroll-reveal animations — cards rise into view on scroll with staggered timing *(3/20)*
+- [x] Hover lift effect — cards elevate with deeper gold shadow on hover *(3/20)*
+- [x] Consistent warm gold shadows across all m3-cards site-wide *(3/20)*
+- [x] Expanded Areas We Serve — added Appleton, Oshkosh, Fond du Lac, Sheboygan (11 cities total) *(3/20)*
 
 ## Lighthouse Performance Scores
 

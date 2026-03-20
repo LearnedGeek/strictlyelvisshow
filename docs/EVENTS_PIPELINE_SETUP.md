@@ -117,7 +117,7 @@ function onOpen() {
 
 - **Published CSV URL:** https://docs.google.com/spreadsheets/d/e/2PACX-1vRWYfyO4KTSwI3UfvA5zGyUcucXVj91ULyFtoNb3ER5Ti-ALqlChz74V716o79GcpC46vqgnh_JB4IV/pub?output=csv
 - **Sheet ID:** Extract from the edit URL (the string between `/d/` and `/edit`)
-- **Netlify Build Hook URL:** *(to be created — see step 2)*
+- **Netlify Build Hook URL:** https://api.netlify.com/build_hooks/69bd722d62572f1d723472e9
 
 ---
 

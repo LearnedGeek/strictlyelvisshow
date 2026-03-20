@@ -18,6 +18,24 @@ document.addEventListener('DOMContentLoaded', function () {
     el.textContent = email;
   });
 
+  // Scroll reveal — cards rise into view as you scroll
+  var revealElements = document.querySelectorAll('.reveal');
+  if (revealElements.length > 0 && 'IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+    revealElements.forEach(function (el) { observer.observe(el); });
+  } else {
+    // Fallback: show everything if IntersectionObserver not supported
+    revealElements.forEach(function (el) { el.classList.add('revealed'); });
+  }
+
   // Click-to-play video cards
   document.querySelectorAll('.video-card').forEach(function (card) {
     var placeholder = card.querySelector('.video-placeholder');
