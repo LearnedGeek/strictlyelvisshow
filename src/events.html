@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://thestrictlyelvisshow.com/events">
   <meta property="og:site_name" content="The Strictly Elvis Show">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <script type="application/ld+json">
+  <script type="application/ld+json" id="events-schema">
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -114,8 +114,13 @@
         New events are added regularly. <a href="/contact.html" class="text-gold hover:text-gold-light font-medium">Contact us</a> to book your own event.
       </p>
 
+      <!-- Events list — populated from Google Sheet data -->
+      <div id="events-list" class="space-y-6">
+        <!-- Events are rendered here by JavaScript -->
+      </div>
+
       <!-- Placeholder when no upcoming events -->
-      <div class="m3-card !p-12 text-center">
+      <div id="no-events" class="m3-card !p-12 text-center" style="display: none;">
         <div class="w-16 h-16 rounded-2xl bg-gold-50 flex items-center justify-center mx-auto mb-6">
           <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
@@ -146,5 +151,84 @@
   </footer>
 
   <script src="/js/main.js"></script>
+  <script>
+    // Load events from build-time generated JSON
+    fetch('/data/events.json')
+      .then(function(res) { return res.json(); })
+      .then(function(data) {
+        var list = document.getElementById('events-list');
+        var placeholder = document.getElementById('no-events');
+        var schemaEl = document.getElementById('events-schema');
+
+        if (!data.events || data.events.length === 0) {
+          placeholder.style.display = 'block';
+          return;
+        }
+
+        // Render event cards
+        data.events.forEach(function(evt) {
+          var location = [evt.venue, evt.address, evt.city, evt.state]
+            .filter(Boolean).join(', ');
+
+          var card = document.createElement('div');
+          card.className = 'm3-card !p-8 flex flex-col md:flex-row md:items-center gap-6';
+          card.innerHTML =
+            '<div class="md:w-32 text-center md:text-left flex-shrink-0">' +
+              '<p class="text-gold font-heading text-lg font-semibold">' + evt.dateFormatted + '</p>' +
+              (evt.time ? '<p class="text-on-surface-variant text-sm mt-1">' + evt.time + '</p>' : '') +
+            '</div>' +
+            '<div class="flex-1">' +
+              '<h3 class="text-xl font-heading font-semibold mb-2">' + evt.name + '</h3>' +
+              '<p class="text-on-surface-variant text-sm">' +
+                '<svg class="w-4 h-4 inline-block mr-1 -mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>' +
+                location +
+              '</p>' +
+              (evt.notes ? '<p class="text-on-surface-variant text-sm mt-2 italic">' + evt.notes + '</p>' : '') +
+            '</div>';
+
+          list.appendChild(card);
+        });
+
+        // Update Event schema with real data
+        if (schemaEl) {
+          var schema = JSON.parse(schemaEl.textContent);
+          schema.itemListElement = data.events.map(function(evt) {
+            return {
+              '@type': 'Event',
+              'name': evt.name,
+              'description': evt.notes || 'Live Elvis tribute performance by Alan Graveen',
+              'startDate': evt.date + (evt.time ? 'T' + convertTo24h(evt.time) : ''),
+              'performer': { '@type': 'PerformingGroup', 'name': 'The Strictly Elvis Show' },
+              'organizer': { '@type': 'LocalBusiness', 'name': 'The Strictly Elvis Show', 'url': 'https://thestrictlyelvisshow.com' },
+              'eventAttendanceMode': 'https://schema.org/OfflineEventAttendanceMode',
+              'eventStatus': 'https://schema.org/EventScheduled',
+              'location': {
+                '@type': 'Place',
+                'name': evt.venue,
+                'address': { '@type': 'PostalAddress', 'streetAddress': evt.address, 'addressLocality': evt.city, 'addressRegion': evt.state || 'WI', 'addressCountry': 'US' }
+              },
+              'offers': { '@type': 'Offer', 'url': 'https://thestrictlyelvisshow.com/contact', 'availability': 'https://schema.org/InStock' }
+            };
+          });
+          schemaEl.textContent = JSON.stringify(schema);
+        }
+      })
+      .catch(function() {
+        // If fetch fails, show placeholder
+        document.getElementById('no-events').style.display = 'block';
+      });
+
+    function convertTo24h(timeStr) {
+      if (!timeStr) return '00:00';
+      var match = timeStr.match(/(\d{1,2}):?(\d{2})?\s*(AM|PM)?/i);
+      if (!match) return '00:00';
+      var h = parseInt(match[1]);
+      var m = match[2] || '00';
+      var ampm = (match[3] || '').toUpperCase();
+      if (ampm === 'PM' && h < 12) h += 12;
+      if (ampm === 'AM' && h === 12) h = 0;
+      return (h < 10 ? '0' + h : h) + ':' + m;
+    }
+  </script>
 </body>
 </html>
