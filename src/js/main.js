@@ -9,14 +9,20 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Contact form handler (Netlify Forms or Formspree integration)
-  const contactForm = document.getElementById('contact-form');
-  if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      // TODO: Connect to Netlify Forms or Formspree
-      alert('Thank you for your message! We will get back to you soon.');
-      contactForm.reset();
+  // Click-to-play video cards
+  document.querySelectorAll('.video-card').forEach(function (card) {
+    var placeholder = card.querySelector('.video-placeholder');
+    if (!placeholder) return;
+
+    placeholder.addEventListener('click', function () {
+      var videoId = card.getAttribute('data-video-id');
+      var iframe = document.createElement('iframe');
+      iframe.setAttribute('src', 'https://www.youtube.com/embed/' + videoId + '?autoplay=1');
+      iframe.setAttribute('class', 'w-full aspect-video rounded-2xl');
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+      iframe.setAttribute('allowfullscreen', '');
+      placeholder.replaceWith(iframe);
     });
-  }
+  });
 });
