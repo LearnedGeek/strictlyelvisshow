@@ -35,7 +35,7 @@ POC is live at https://strictlyelvisshow.netlify.app — use as starting point.
 - [x] M3 dark theme with gold accents (Vegas stage lighting aesthetic) *(POC complete)*
 
 ### Content Updates
-- [ ] Incorporate Jacque's narrative (Elvis focus, no DJ, senior living communities)
+- [x] Incorporate Jacque's narrative (Elvis focus, no DJ, senior living communities) *(already in POC, verified 3/19)*
 - [x] Standardize phone number: (262) 293-9805 *(already correct in POC)*
 - [x] Service area cities prominently displayed *(POC complete)*
 - [ ] Testimonials with event context (if Alan provides)

@@ -5,6 +5,7 @@ Thumbs.db
 src/css/output.css
 src/sitemap.xml
 src/robots.txt
+src/assets/images/*-original.*
 
 # Local Netlify folder
 .netlify
