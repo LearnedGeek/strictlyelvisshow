@@ -423,3 +423,23 @@ I'll keep building and will have the new site ready for your review in the next 
 
 Talk soon,
 Mark
+
+-----------------------------------------
+
+From: "Jacque Graveen" <Jacquesjunk@wi.rr.com>
+To: Mark McArthey
+Sent: March 20, 2026
+Subject: Re: Payment received — Phase 1 Details
+
+Hi Mark,
+You have certainly been a true blessing..really. What can we say, but a heartfelt THANK YOU!!!  We are excited to see Alan's website finally "come to life!" after all this time.
+
+There is so much to running a business... transparency, integrity, promptness, wisdom..and much more.  From day 1 of our business, we have given the outcome to God..and He has NEVER let us down!  He has brought you into our lives for such a time as this.
+
+I have looked at some of the photos on the website and I believe some should be changed to better reflect who Alan really is.  Thus, the photos of his just standing there, as in a staged pose, I have told Alan to replace with a more true to life interpretation of what he is with photos of him actually "doing" his singing.  I have many such photos and slowly will replace the staged photos with these more animated ones.
+
+Thank you for allowing us to put together the finances to pay you as needed for each phase.  This time of the year gets a bit tight w. business insurance, taxes due, etc., and we do appreciate your faithfulness in knowing we are good for it.
+
+I sure am glad you are handling all this techy stuff, cause I don't quite understand it all.  We'll be in touch as needed.
+
+Jacque Graveen
