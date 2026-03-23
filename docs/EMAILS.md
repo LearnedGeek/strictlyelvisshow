@@ -443,3 +443,55 @@ Thank you for allowing us to put together the finances to pay you as needed for 
 I sure am glad you are handling all this techy stuff, cause I don't quite understand it all.  We'll be in touch as needed.
 
 Jacque Graveen
+
+-----------------------------------------
+
+DRAFT — Status Update (not yet sent, waiting to hear from them first)
+
+From: "Mark McArthey"
+To: Alan Graveen, Jacque Graveen
+Subject: Your new site is ready for a sneak peek!
+
+Hi Alan & Jacque,
+
+Quick update — the new site is really coming together. Take a look when you get a chance:
+
+https://strictlyelvisshow.netlify.app
+
+Here's what's been built since we last talked:
+
+**Your reviews, front and center**
+All 9 of your Google reviews are now featured in a scrolling carousel on the homepage — Nancy, Jani, Elizabeth Residence, Brian, Paula, Lisa, Pam, Jeff & Judy, and Monika. They auto-rotate and visitors can swipe through them on their phone. Your 5-star rating is displayed with each one.
+
+**Event management — the easy way**
+I set up a Google Sheet where you can manage your upcoming events. Just fill in the date, venue, and event name, check the "Publish" box, and the website updates automatically. No coding, no calling me — just a spreadsheet. I'll share it with you both when we're ready to go live.
+
+**Performance numbers that pop**
+The stats on the homepage (5,000+ shows, 20+ years, etc.) now animate and count up as visitors scroll down the page. Small touch, but it catches the eye.
+
+**Photo gallery**
+Added a photo gallery section to the Media page with a lightbox viewer — click any photo and it opens full-size with arrow navigation. Jacque, when you have those performance photos ready, just send them over and I'll swap them in. The more "in action" shots the better!
+
+**Smarter contact form**
+The booking form now asks for Event Date and Estimated Guest Count in addition to Event Type. This means when someone reaches out, you'll know right away what kind of event they're planning.
+
+**And under the hood**
+- Perfect Lighthouse scores: 100/100/100/100 (Performance, Accessibility, Best Practices, SEO) — that's as good as it gets
+- Schema.org structured data so Google understands exactly what your business is
+- 11 Wisconsin city landing pages for local SEO
+- Sitemap auto-generates on every update
+- Free hosting — $0/month, forever
+
+**What's left before go-live:**
+1. Point your domain (thestrictlyelvisshow.com) to the new site — takes about 5 minutes in your GoDaddy account, and I'll walk you through it
+2. Cancel the GoDaddy Websites + Marketing plan (keep the domain — it's paid through 2028)
+3. Google Search Console — whenever you get a chance to set that up, it'll help us track search performance
+
+**Jacque** — send those performance photos whenever they're ready. No rush, we can always add more later.
+
+**Alan** — any luck with the Google Search Console setup? Happy to hop on a quick call if it would be easier.
+
+Let me know what you think of the site! And remember — if anything feels off or you want changes, just say the word. Nothing is final until you say it is.
+
+Warmly,
+Mark

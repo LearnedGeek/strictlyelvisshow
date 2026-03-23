@@ -93,17 +93,17 @@ Hidden from nav, included in sitemap. Same pattern as lakecountryspanish.com/Hom
 - [x] Honeypot spam protection *(3/19 — reCAPTCHA deferred to Phase 2 if needed)*
 
 ### Events Pipeline (Google Sheet → Site)
-- [ ] Create Google Sheet template with validated columns (Publish, Date, Time, Event Name, Venue, Address, City, State, Notes)
-- [ ] Add data validation: City dropdown (service areas), State locked to WI, date format enforcement
-- [ ] Add conditional formatting: red highlight on empty required fields
-- [ ] Write Apps Script to trigger Netlify build webhook on edit
-- [ ] Build script (`scripts/fetch-events.js`) to pull sheet data via Google Sheets API
-- [ ] Filter: skip unpublished rows, skip past dates, skip rows missing required fields
-- [ ] HTML-encode all output for safety
-- [ ] Generate Event schema (JSON-LD) dynamically from sheet data
-- [ ] Update events page to render fetched events
-- [ ] Set up Netlify build hook URL
-- [ ] Test end-to-end: add event in sheet → site updates
+- [x] Create Google Sheet template with validated columns (Publish, Date, Time, Event Name, Venue, Address, City, State, Notes) *(3/20)*
+- [x] Add data validation: City dropdown (service areas), date format enforcement *(3/20)*
+- [x] Add conditional formatting: red highlight on empty required fields *(3/20)*
+- [x] Write Apps Script to trigger Netlify build webhook on edit *(3/20)*
+- [x] Build script (`scripts/fetch-events.js`) to pull sheet data via published CSV URL *(3/20)*
+- [x] Filter: skip unpublished rows, skip past dates, skip rows missing required fields *(3/20)*
+- [x] HTML-encode all output for safety *(3/20)*
+- [x] Generate Event schema (JSON-LD) dynamically from sheet data *(3/20)*
+- [x] Update events page to render fetched events *(3/20)*
+- [x] Set up Netlify build hook URL *(3/20)*
+- [x] Test end-to-end: add event in sheet → site updates *(3/20 — verified empty, unpublished, and published flows)*
 
 ### Deployment
 - [x] Auto-deploy from GitHub (main branch) — already configured *(working)*
