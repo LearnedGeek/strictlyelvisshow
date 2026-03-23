@@ -159,19 +159,19 @@
     <div class="max-w-6xl mx-auto px-6 py-10">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
         <div>
-          <p class="text-3xl font-heading font-semibold text-gold">5,000+</p>
+          <p class="text-3xl font-heading font-semibold text-gold stat-counter" data-count-to="5000" data-suffix="+" data-use-commas="true">0</p>
           <p class="text-sm text-on-surface-variant mt-1">Shows Performed</p>
         </div>
         <div>
-          <p class="text-3xl font-heading font-semibold text-gold">20+</p>
+          <p class="text-3xl font-heading font-semibold text-gold stat-counter" data-count-to="20" data-suffix="+">0</p>
           <p class="text-sm text-on-surface-variant mt-1">Years Experience</p>
         </div>
         <div>
-          <p class="text-3xl font-heading font-semibold text-gold">3</p>
+          <p class="text-3xl font-heading font-semibold text-gold stat-counter" data-count-to="3">0</p>
           <p class="text-sm text-on-surface-variant mt-1">Unique Shows</p>
         </div>
         <div>
-          <p class="text-3xl font-heading font-semibold text-gold">100mi</p>
+          <p class="text-3xl font-heading font-semibold text-gold stat-counter" data-count-to="100" data-suffix="mi">0</p>
           <p class="text-sm text-on-surface-variant mt-1">Service Radius</p>
         </div>
       </div>
@@ -256,19 +256,78 @@
         <p class="text-gold font-medium text-sm uppercase tracking-widest mb-3">Testimonials</p>
         <h2 class="text-3xl md:text-4xl font-heading font-semibold">What People Are Saying</h2>
       </div>
-      <div class="grid md:grid-cols-3 gap-6 reveal-stagger">
-        <div class="testimonial-card reveal">
-          <p class="text-on-surface-variant leading-relaxed mb-6 pt-4">Alan Graveen aka Elvis Presley is one of the most entertaining and inspiring acts I have seen in a long time.</p>
-          <p class="font-medium text-sm text-on-surface">Pam Thomas</p>
+      <!-- Google Reviews Carousel -->
+      <div class="reviews-carousel reveal" id="reviews-carousel">
+        <div class="carousel-viewport">
+          <div class="carousel-track" id="carousel-track">
+            <div class="carousel-slide">
+              <div class="google-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="font-heading italic text-xl md:text-2xl text-on-surface leading-relaxed mb-8">"Alan is an amazing person and performer! My husband is a huge Elvis fan and is struggling with a brain cancer diagnosis. He made my husband feel so happy and special. Alan's wonderful performance and his kind words will always be cherished and treasured."</p>
+              <p class="font-medium text-gold">Nancy Markowski</p>
+              <p class="text-xs text-on-surface-variant mt-1">a month ago</p>
+            </div>
+            <div class="carousel-slide">
+              <div class="google-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="font-heading italic text-xl md:text-2xl text-on-surface leading-relaxed mb-8">"WOW, Alan is a great entertainer!!! His voice is stunning. The way he interacted with his audience was amazing! He had all the moves! We had so much fun and he lifted my 88 year old mother's spirit."</p>
+              <p class="font-medium text-gold">Jani Hillen</p>
+              <p class="text-xs text-on-surface-variant mt-1">5 months ago</p>
+            </div>
+            <div class="carousel-slide">
+              <div class="google-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="font-heading italic text-xl md:text-2xl text-on-surface leading-relaxed mb-8">"The experience he provided to our residents was nothing short of EXCELLENT; he involved each &amp; every person &amp; made it feel like a true concert. We already have him scheduled again!"</p>
+              <p class="font-medium text-gold">Elizabeth Residence New Berlin</p>
+              <p class="text-xs text-on-surface-variant mt-1">a month ago</p>
+            </div>
+            <div class="carousel-slide">
+              <div class="google-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="font-heading italic text-xl md:text-2xl text-on-surface leading-relaxed mb-8">"Alan is an amazing performer — we have now hired him 4 times to perform at our business. The crowd always LOVES him and he delivers a memorable performance. I highly recommend booking him!"</p>
+              <p class="font-medium text-gold">Brian Dennis</p>
+              <p class="text-xs text-on-surface-variant mt-1">a year ago</p>
+            </div>
+            <div class="carousel-slide">
+              <div class="google-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="font-heading italic text-xl md:text-2xl text-on-surface leading-relaxed mb-8">"I have seen his show 3 times now and enjoy it every time. He is a fantastic performer with a great voice and is extremely personable. He really relates to his audience."</p>
+              <p class="font-medium text-gold">Paula Holz</p>
+              <p class="text-xs text-on-surface-variant mt-1">3 years ago</p>
+            </div>
+            <div class="carousel-slide">
+              <div class="google-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="font-heading italic text-xl md:text-2xl text-on-surface leading-relaxed mb-8">"Awesome performer. Thoroughly enjoy all of the shows he puts on. His voice sounds just like Elvis. Thank you!"</p>
+              <p class="font-medium text-gold">LisaM Rott</p>
+              <p class="text-xs text-on-surface-variant mt-1">5 years ago</p>
+            </div>
+            <div class="carousel-slide">
+              <div class="google-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="font-heading italic text-xl md:text-2xl text-on-surface leading-relaxed mb-8">"Alan Graveen aka Elvis Presley is one of the most entertaining and inspiring acts I have seen in a long time."</p>
+              <p class="font-medium text-gold">Pam Thomas</p>
+            </div>
+            <div class="carousel-slide">
+              <div class="google-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="font-heading italic text-xl md:text-2xl text-on-surface leading-relaxed mb-8">"You made our evening a lot of fun along with a lot of laughter! Your interacting with the group and selection of songs were great!"</p>
+              <p class="font-medium text-gold">Jeff and Judy</p>
+            </div>
+            <div class="carousel-slide">
+              <div class="google-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p class="font-heading italic text-xl md:text-2xl text-on-surface leading-relaxed mb-8">"EVERYONE enjoyed the performance and I, of course, was in heaven. What a special tribute you give to a great man. Thank you for a memory that will last me the rest of my life!"</p>
+              <p class="font-medium text-gold">Monika</p>
+            </div>
+          </div>
         </div>
-        <div class="testimonial-card reveal">
-          <p class="text-on-surface-variant leading-relaxed mb-6 pt-4">You made our evening a lot of fun along with a lot of laughter! Your interacting with the group and selection of songs were great!</p>
-          <p class="font-medium text-sm text-on-surface">Jeff and Judy</p>
+        <div class="flex items-center justify-center gap-6 mt-8">
+          <button class="carousel-arrow" id="carousel-prev" aria-label="Previous review">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <div class="carousel-dots" id="carousel-dots"></div>
+          <button class="carousel-arrow" id="carousel-next" aria-label="Next review">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
         </div>
-        <div class="testimonial-card reveal">
-          <p class="text-on-surface-variant leading-relaxed mb-6 pt-4">EVERYONE enjoyed the performance and I, of course, was in heaven. What a special tribute you give to a great man. Thank you for a memory that will last me the rest of my life!</p>
-          <p class="font-medium text-sm text-on-surface">Monika</p>
-        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="https://www.google.com/search?q=Strictly+Elvis+Show+Alan+Graveen+reviews" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-gold hover:text-gold-light transition-colors text-sm font-medium">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          See all reviews on Google
+        </a>
       </div>
     </div>
   </section>

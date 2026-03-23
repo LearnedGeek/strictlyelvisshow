@@ -149,6 +149,10 @@ Hidden from nav, included in sitemap. Same pattern as lakecountryspanish.com/Hom
 - [x] Hover lift effect — cards elevate with deeper gold shadow on hover *(3/20)*
 - [x] Consistent warm gold shadows across all m3-cards site-wide *(3/20)*
 - [x] Expanded Areas We Serve — added Appleton, Oshkosh, Fond du Lac, Sheboygan (11 cities total) *(3/20)*
+- [x] Google Reviews carousel — 9 real reviews with auto-advance, touch swipe, dot navigation *(3/22)*
+- [x] Animated stat counters — numbers count up on scroll (5,000+ shows, 20+ years, etc.) *(3/22)*
+- [x] Enhanced contact form — added Event Date and Estimated Guest Count fields *(3/22)*
+- [x] Photo gallery with lightbox — thumbnail grid on Media page, click-to-enlarge with keyboard nav *(3/22)*
 
 ## Lighthouse Performance Scores
 

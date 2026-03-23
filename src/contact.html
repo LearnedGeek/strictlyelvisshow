@@ -108,6 +108,24 @@
                 </select>
               </div>
               <div>
+                <label for="event-date" class="block text-sm font-medium text-on-surface-variant mb-1.5">Event Date</label>
+                <input type="date" id="event-date" name="event-date"
+                  class="w-full px-4 py-3 bg-surface-container-high border border-outline-variant rounded-xl focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent text-on-surface">
+              </div>
+              <div>
+                <label for="guest-count" class="block text-sm font-medium text-on-surface-variant mb-1.5">Estimated Guest Count</label>
+                <select id="guest-count" name="guest-count"
+                  class="w-full px-4 py-3 bg-surface-container-high border border-outline-variant rounded-xl focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent text-on-surface">
+                  <option value="">Select estimated attendance</option>
+                  <option value="1-25">1–25 guests</option>
+                  <option value="26-50">26–50 guests</option>
+                  <option value="51-100">51–100 guests</option>
+                  <option value="101-250">101–250 guests</option>
+                  <option value="251-500">251–500 guests</option>
+                  <option value="500+">500+ guests</option>
+                </select>
+              </div>
+              <div>
                 <label for="message" class="block text-sm font-medium text-on-surface-variant mb-1.5">Message</label>
                 <textarea id="message" name="message" rows="4"
                   class="w-full px-4 py-3 bg-surface-container-high border border-outline-variant rounded-xl focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent text-on-surface"

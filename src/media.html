@@ -217,6 +217,47 @@
     </div>
   </section>
 
+  <!-- Star Divider -->
+  <div class="star-divider">
+    <svg class="star" viewBox="0 0 24 24" fill="#C9A84C"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+    <svg class="star-center" viewBox="0 0 24 24" fill="#C9A84C"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+    <svg class="star" viewBox="0 0 24 24" fill="#C9A84C"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+  </div>
+
+  <!-- Photo Gallery -->
+  <section class="px-6 pb-20 relative">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-12">
+        <p class="text-gold font-medium text-sm uppercase tracking-widest mb-3">Gallery</p>
+        <h2 class="text-3xl md:text-4xl font-heading font-semibold">Performance Photos</h2>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 reveal-stagger">
+        <div class="gallery-thumb reveal cursor-pointer overflow-hidden rounded-2xl" data-gallery-idx="0">
+          <img src="/assets/images/elvis-hero.jpg" alt="Alan Graveen performing as Elvis in blue jeweled jumpsuit" class="w-full aspect-square object-cover hover:scale-110 transition-transform duration-300" loading="lazy">
+        </div>
+        <div class="gallery-thumb reveal cursor-pointer overflow-hidden rounded-2xl" data-gallery-idx="1">
+          <img src="/assets/images/king2.jpg" alt="Alan Graveen in Elvis sunglasses and jeweled jumpsuit" class="w-full aspect-square object-cover hover:scale-110 transition-transform duration-300" loading="lazy">
+        </div>
+        <div class="gallery-thumb reveal cursor-pointer overflow-hidden rounded-2xl" data-gallery-idx="2">
+          <img src="/assets/images/strictly-elvis-4.jpeg" alt="Alan Graveen performing Elvis tribute for live audience" class="w-full aspect-square object-cover hover:scale-110 transition-transform duration-300" loading="lazy">
+        </div>
+        <div class="gallery-thumb reveal cursor-pointer overflow-hidden rounded-2xl" data-gallery-idx="3">
+          <img src="/assets/images/performance.jpg" alt="Alan Graveen interacting with audience during Elvis show" class="w-full aspect-square object-cover hover:scale-110 transition-transform duration-300" loading="lazy">
+        </div>
+      </div>
+      <p class="text-center text-on-surface-variant text-sm mt-8">More photos coming soon — Jacque is curating Alan's best performance shots.</p>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <div class="lightbox-overlay"></div>
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous">&#10094;</button>
+    <button class="lightbox-next" aria-label="Next">&#10095;</button>
+    <img id="lightbox-img" class="lightbox-img" src="" alt="">
+  </div>
+
   </main>
 
   <!-- Footer -->
