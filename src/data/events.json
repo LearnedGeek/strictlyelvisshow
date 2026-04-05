@@ -1,16 +1,4 @@
 {
-  "events": [
-    {
-      "date": "12/25/2026",
-      "dateFormatted": "Friday, December 25, 2026",
-      "time": "2:00:00 PM",
-      "name": "Elvis Christmas Special",
-      "venue": "Test Venue",
-      "address": "123 Main St",
-      "city": "Milwaukee",
-      "state": "WI",
-      "notes": "Test Event Notes"
-    }
-  ],
-  "generatedAt": "2026-03-23T00:06:40.536Z"
+  "events": [],
+  "generatedAt": "2026-04-04T22:00:00.000Z"
 }
