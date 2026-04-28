@@ -1029,17 +1029,3 @@ Sent: Apr 27, 2026, 9:10 PM
 Subject: RE: 🎤 Booking inquiry from {{ name }} — {{ event-type }}
 
 Got it ! Site is beautiful thank you Mark !!!
-
------------------------------------------
-
-**OBSERVATION (Apr 28, 2026):** Alan's reply confirmed the test submission landed, but the subject line shows the un-expanded template tokens (`{{ name }}`, `{{ event-type }}`). Root cause: the custom subject line we configured in the Netlify dashboard's email notification only expands a small set of built-in variables (form_name, site_name, etc.), not arbitrary form fields. Despite Netlify's own warning that the form template's hidden subject field "will take priority," the dashboard subject was actually winning.
-
-**FIX:**
-1. Added a small submit handler in `src/js/main.js` that rewrites the form's hidden `subject` field with the actual name and selected event type just before submission (commit d650ac3).
-2. Cleared the dashboard's "Custom email subject line" field in Netlify → Forms → contact → Form notifications, so the form's now-dynamic hidden subject takes effect.
-
-Going forward, booking inquiries should arrive with subjects like:
-
-> 🎤 Booking inquiry from Cathi Dorn — Corporate Event
-
-Mark sent Alan a short follow-up note explaining the subject-line tweak.
