@@ -1001,14 +1001,18 @@ Mark
 
 -----------------------------------------
 
-**TEST CONTACT FORM SUBMISSION** (sent via thestrictlyelvisshow.com/contact)
+From: "thestrictlyelvisshow.com" <formresponses@netlify.com>
+Reply-To: markm@learnedgeek.com
+To: elvisg@wi.rr.com
+Sent: Apr 27, 2026, 6:50 PM CDT
+Subject: 🎤 Booking inquiry from {{ name }} — {{ event-type }}
 
-Name: Mark McArthey (Test)
+Name: Mark McArthey (Testing)
 Email: markm@learnedgeek.com
-Phone: 262-496-8978
-Event Date: December 31, 2099
-Event Type: Other / Just testing!
-Estimated Guest Count: 1
+Phone: 2624968978
+Event Type: other
+Event Date: 2099-12-31
+Estimated Guest Count: 1-25
 Message:
 
 > 🎸 Hi Alan & Jacque,
@@ -1029,3 +1033,19 @@ Sent: Apr 27, 2026, 9:10 PM
 Subject: RE: 🎤 Booking inquiry from {{ name }} — {{ event-type }}
 
 Got it ! Site is beautiful thank you Mark !!!
+
+-----------------------------------------
+
+From: Mark McArthey
+To: Alan Graveen <elvisg@wi.rr.com>
+Sent: Apr 28, 2026
+Subject: Re: 🎤 Booking inquiry from {{ name }} — {{ event-type }}
+
+Hi Alan,
+
+Glad you got the test — and thank you! 🎸
+
+Quick heads-up: you may have noticed the subject line on that one came through with `{{ name }}` and `{{ event-type }}` placeholders rather than the actual values. I just tweaked it on my end so future booking emails will arrive with subjects like "🎤 Booking inquiry from Cathi Dorn — Corporate Event" — much easier to spot at a glance.
+
+Thanks again,
+Mark
