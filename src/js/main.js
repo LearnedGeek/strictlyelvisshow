@@ -180,6 +180,27 @@ document.addEventListener('DOMContentLoaded', function () {
     }, { passive: true });
   })();
 
+  // Contact form: build a descriptive subject from the user's input on submit.
+  // Netlify uses the hidden `subject` field verbatim; its dashboard subject template
+  // does not expand arbitrary form-field tokens like {{ name }}, so we do it here.
+  var contactForm = document.getElementById('contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function () {
+      var subjectField = contactForm.querySelector('input[name="subject"]');
+      if (!subjectField) return;
+      var nameInput = contactForm.querySelector('input[name="name"]');
+      var eventSelect = contactForm.querySelector('select[name="event-type"]');
+      var name = (nameInput && nameInput.value.trim()) || 'a guest';
+      var eventLabel = '';
+      if (eventSelect && eventSelect.selectedIndex > 0) {
+        eventLabel = eventSelect.options[eventSelect.selectedIndex].text;
+      }
+      subjectField.value = eventLabel
+        ? '🎤 Booking inquiry from ' + name + ' — ' + eventLabel
+        : '🎤 Booking inquiry from ' + name;
+    });
+  }
+
   // Click-to-play video cards
   document.querySelectorAll('.video-card').forEach(function (card) {
     var placeholder = card.querySelector('.video-placeholder');
