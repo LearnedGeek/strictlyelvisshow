@@ -1043,7 +1043,7 @@ Subject: Re: 🎤 Booking inquiry from {{ name }} — {{ event-type }}
 
 Hi Alan,
 
-Glad you got the test — and thank you! 🎸
+Glad you got the test — and thank you!
 
 Quick heads-up: you may have noticed the subject line on that one came through with `{{ name }}` and `{{ event-type }}` placeholders rather than the actual values. I just tweaked it on my end so future booking emails will arrive with subjects like "🎤 Booking inquiry from Cathi Dorn — Corporate Event" — much easier to spot at a glance.
 
