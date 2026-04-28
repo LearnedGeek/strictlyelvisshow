@@ -9,3 +9,9 @@ src/assets/images/*-original.*
 
 # Local Netlify folder
 .netlify
+
+# Per-user Claude Code config (hardcoded local paths, binaries)
+.claude/
+
+# Windows shell artifact from accidental `> nul` redirect under bash
+nul
