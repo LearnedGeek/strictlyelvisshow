@@ -1049,3 +1049,17 @@ Quick heads-up: you may have noticed the subject line on that one came through w
 
 Thanks again,
 Mark
+
+-----------------------------------------
+
+From: jacquesjunk@wi.rr.com
+Reply-To: jacquesjunk@wi.rr.com
+To: Mark McArthey <markm@learnedgeek.com>
+Sent: Apr 28, 2026, 12:02 PM
+Subject: RE: Done — your new site is live!
+
+Thanks Mark...beautiful job all the way around.  We did review those messages in Go-Daddy and we did contact them.  Glad  you sent this red flag up for Alan to review...
+
+Website looks outstanding!  So excited to see what will happen.  You are a true gem.
+
+Sincerely..Jacque Graveen
