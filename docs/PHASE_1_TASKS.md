@@ -41,6 +41,19 @@ POC is live at https://strictlyelvisshow.netlify.app — use as starting point.
 - [ ] Testimonials with event context (if Alan provides)
 - [x] Clear CTAs on every page *(POC complete)*
 
+### Jacque's Feedback (received 4/4/2026)
+*[Source: docs/client/Recommended changes to Strictly Elvis website.docx]*
+- [ ] Fix "Hit" → "Hits" on homepage for consistency with show descriptions
+- [ ] Remove "interactive" before "scarves" in Strictly Elvis Show description
+- [ ] Remove King & Diamonds Show entirely — Alan & Eric's schedules conflict, not viable
+- [ ] Update "3 Unique Shows" → "2 Unique Shows" and "3 Shows, One Mission" → "2 Shows, One Mission"
+- [ ] Remove "Test Venue" entry from Upcoming Events
+- [ ] Remove "and working as a mobile DJ since 2000" from About section
+- [ ] Move "Senior Living Communities" to top of events-we-serve list
+- [ ] Expand to "Senior Living Communities (including Independent Living, Assisted Living, and Memory Care)"
+- [ ] Rework About copy to emphasize senior communities (95% of business)
+- [ ] Replace posed photos with more "active" performance shots (waiting on Jacque to provide)
+
 ---
 
 ## 2. SEO — Built Into the Site
@@ -114,7 +127,7 @@ Hidden from nav, included in sitemap. Same pattern as lakecountryspanish.com/Hom
 ## 5. Google Integration
 
 - [ ] Update Google Business Profile website URL (if domain changes during transition)
-- [ ] Google Search Console — submit sitemap (blocked on Alan granting access)
+- [x] Google Search Console — Alan granted access 3/28, sitemap submitted *(3/28)*
 - [ ] Verify all GBP info still matches new site (NAP consistency)
 
 ---
@@ -182,7 +195,7 @@ Reports saved in `docs/client/lighthouse/`
 ## Waiting On
 
 - [x] **Alan & Jacque feedback on POC** — Jacque loved it ("sooooooooooo much better"), provided narrative updates
-- [ ] **Google Search Console access** — Alan said he'll do it "tomorrow" (as of 3/20)
+- [x] **Google Search Console access** — Alan granted access and added markm@learnedgeek.com *(3/28)*
 - [x] **Banner image replacement** — Alan fixed it on GoDaddy (3/19)
 - [ ] **Testimonial event context** — optional, asked in Phase 0 email
 - [x] **Phase 1 formal approval** — Alan confirmed "$1,500... definitely are going to do phase 1" (3/20)
