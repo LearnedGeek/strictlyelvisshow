@@ -781,22 +781,19 @@ Subject: Re: review
 
 Hi Dana,
 
-Thank you for sending this along — it's a wonderful piece. The Hills clearly know SJOA inside and out, and their perspective (four kids, 17 years, still parish members) carries real weight. The closing line — "the best kept secret in Lake Country" — is exactly the kind of thing prospective parents remember.
+Thank you for sending this; it's a wonderful piece. The Hills clearly know SJOA inside and out, and their perspective (four kids, 17 years, still parish members) carries real weight. The closing line, "the best-kept secret in Lake Country," is exactly the kind of thing prospective parents remember.
 
-A thought on how to use it: at roughly 600 words it's longer than a typical testimonial card, but the depth is what makes it powerful. Rather than truncate it, I'd recommend publishing it two ways:
+A thought on how to use it: At roughly 600 words it's longer than a typical testimonial card, but the depth is what makes it powerful. Rather than truncate it, I'd recommend publishing it two ways:
 
-1. **Featured Parent Story page** — the full essay gets its own page on the website (something like "Our Families → The Hills Family") with their byline. It reads like a heartfelt parent reflection, and that's worth giving real space rather than chopping down. The keyword-rich content also helps with SEO when prospective families search for things like "Catholic school Lake Country" or "private school Hartland."
+Featured Parent Story page — the full essay gets its own page on the website (something like "Our Families → The Hills Family") with their byline. It reads like a heartfelt parent reflection, and that's worth giving real space rather than chopping down. The keyword-rich content also helps with SEO when prospective families search for things like "Catholic school Lake Country" or "private school Hartland."
 
-2. **Pull-quotes elsewhere** — pick two or three of the strongest lines for the homepage testimonial section and the admissions page, each linking back to the full story. A few that stood out to me:
-   - "SJOA was and is the best kept secret in Lake Country... a priceless investment in the lives of your children."
-   - "In many ways, the small class sizes made it feel like family."
-   - "The students from SJOA at both high schools were considered the 'smarties' by both teachers and other students."
+Pull-quotes elsewhere — pick two or three of the strongest lines for the homepage testimonial section and the admissions page, each linking back to the full story. A few that stood out to me:
 
-Lindsey, curious for your take too — happy to coordinate on placement and styling once you've had a chance to read through.
+"SJOA was and is the best kept secret in Lake Country... a priceless investment in the lives of your children."
+"In many ways, the small class sizes made it feel like family."
+"The students from SJOA at both high schools were considered the 'smarties' by both teachers and other students."
 
-One more thought: it would be nice to send the Hills a short thank-you for taking the time to write this. Happy to draft something if helpful.
+Lindsey, I'm curious for your take too and I'm happy to coordinate on placement and styling once you've had a chance to read through.
 
 Thanks,
-Mark
-
 Mark
