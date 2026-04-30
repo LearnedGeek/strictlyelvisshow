@@ -732,4 +732,71 @@ If it would help, I can put together a short outreach template you could forward
 
 Thanks for being such a champion for the school!
 
+-----------------------------------------
+
+From: DANA MCEVOY <dmcevoy@scsjcluster.org>
+To: Lindsey Muchka <lindseymuchka@gmail.com>, Mark McArthey <markm@learnedgeek.com>
+Sent: Apr 30, 2026, 6:52 AM
+Subject: review
+
+Good Morning,
+Attached is a review from a former parent, Rick and Elaine Hills whose children all went to SJOA. It is rather long, but I think it is a great review for our website?!
+Let me know what you think.
+
+Thank you,
+
+Mrs. Dana McEvoy
+Principal
+St. Joan of Arc Parish School
+
+[Attachment: HILLS – SJOA TESTIMONIAL]
+
+A little history; my husband and I joined St. Joan of Arc in 1990 when we relocated to Lake Country. We celebrated the Baptisms, First Eucharists and Confirmations of all four of our children. The kids all attended SJOA school from 4K-8th grade. In total we spent 17 years in a row driving to and from school, the best days ever. We continue to be parish members and proudly support the school.
+
+It has been 12 years since we graduated the youngest from SJOA. As the high school and college chapters are all behind us now, we have gained a greater life perspective worth sharing to those parents interested in this Parish school.
+
+Was everything always perfect? Were parents always perfect? Were the other classmates perfect? The answer is of course not; there's no such thing as a perfect world. Yet those imperfections encouraged positive learning situations. Rather than leaving for another school with likely the same problems in another building, we provided opportunities for our children to add "tools" for eventual real-life scenarios. Sometimes negative experiences can strengthen us and our kids in unexpected ways. That's how character is built.
+
+My husband volunteered as a coach for the middle school girls' basketball teams. His philosophy was simple; will they remember if they won, or will they remember if they played? Every girl played in every quarter of every game. By the 8th grade those players developed a confidence that would carry them through high school and beyond. Another school parent initiated a cross-country team for any student who liked to run. As a result of this, our youngest daughter (who only joined to be with her friends) was awarded a scholarship to run CC for a Division I university.
+
+When our second son was in 8th grade, he won the district level "Modern Woodman" speech contest and had the opportunity to compete at the state level representing SJOA. His teacher let him practice his speech every day in front of his peers. We were grateful that she cared as much as we did. He went on to win the state competition and moved on to a national competition. The principal hosted a pizza day for the entire school in celebration. Everyone cared.
+
+The academics exceeded our expectations in the classroom. Our oldest daughter was invited to take the ACT test as a 5th grader due to her high standardized test results. She continued to take the ACT test every year going forward, and by the time junior year of HS ACT test taking came along, she was very secure in her testing ability.
+
+The boys went to Oconomowoc HS and the girls attended Arrowhead HS. The students from SJOA at both high schools were considered the "smarties" by both teachers and other students. Highlighting the high level of academics not just for our kids, but all SJOA graduates. There are so many others out there who have gone on to accomplish great things.
+
+However, there was more to it than academics that shaped our children during their first ten years of school. SJOA set a high bar of expected behavior which was reinforced at home and God was always the focus. This included respect for others, kindness and compassion, honesty, generosity, and always doing your best. Our parish priest taught the religion classes and inspired our children to become more involved in the mass. All four became altar servers, and three out of four were lectors along with their dad.
+
+What may surprise you as perhaps an interesting social experiment is that our four children were all adopted as infants. They had two things in common; the parents who raised them and the 4k-8th grade foundation that shaped their lives forever. In many ways, the small class sizes made it feel like "family". The students all encouraged and helped each other, and there was also one on one time with the teacher when indicated. The concern was genuine from parents and other school staff members as well.
+
+Our goal as parents is two-fold; first to give our kids strong roots and a sense of belonging, and second to grow their wings...to take them as far as they wish to go, to make a difference in the world. SJOA was and is the best kept secret in Lake Country. Once the word gets out there, expect a waiting list to get in... it is a priceless investment in the lives of your children.
+
+-----------------------------------------
+
+From: Mark McArthey
+To: Dana McEvoy <dmcevoy@scsjcluster.org>
+CC: Lindsey Muchka <lindseymuchka@gmail.com>
+Sent: Apr 30, 2026
+Subject: Re: review
+
+Hi Dana,
+
+Thank you for sending this along — it's a wonderful piece. The Hills clearly know SJOA inside and out, and their perspective (four kids, 17 years, still parish members) carries real weight. The closing line — "the best kept secret in Lake Country" — is exactly the kind of thing prospective parents remember.
+
+A thought on how to use it: at roughly 600 words it's longer than a typical testimonial card, but the depth is what makes it powerful. Rather than truncate it, I'd recommend publishing it two ways:
+
+1. **Featured Parent Story page** — the full essay gets its own page on the website (something like "Our Families → The Hills Family") with their byline. It reads like a heartfelt parent reflection, and that's worth giving real space rather than chopping down. The keyword-rich content also helps with SEO when prospective families search for things like "Catholic school Lake Country" or "private school Hartland."
+
+2. **Pull-quotes elsewhere** — pick two or three of the strongest lines for the homepage testimonial section and the admissions page, each linking back to the full story. A few that stood out to me:
+   - "SJOA was and is the best kept secret in Lake Country... a priceless investment in the lives of your children."
+   - "In many ways, the small class sizes made it feel like family."
+   - "The students from SJOA at both high schools were considered the 'smarties' by both teachers and other students."
+
+Lindsey, curious for your take too — happy to coordinate on placement and styling once you've had a chance to read through.
+
+One more thought: it would be nice to send the Hills a short thank-you for taking the time to write this. Happy to draft something if helpful.
+
+Thanks,
+Mark
+
 Mark
