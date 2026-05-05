@@ -797,3 +797,125 @@ Lindsey, I'm curious for your take too and I'm happy to coordinate on placement 
 
 Thanks,
 Mark
+
+-----------------------------------------
+
+From: Lindsey Muchka <lindseymuchka@gmail.com>
+To: Mark McArthey <markm@learnedgeek.com>, Lindsey Lezama <lindsey.lezama@gmail.com>, "St. Joan of Arc School" <school-office@scsjcluster.org>
+Sent: May 5, 2026, 8:18 AM
+Subject: Fwd: Fw: Facebook hacked ?
+
+FYI... We've dug into this and cannot find the source of the original ad. I also found the included Facebook comment which will be addressed.
+
+Mark, I don't know if you know any other ways to report, but what I know about Facebook is that you have to report when you see it - And I can't find what the original "ad" was....
+
+Any ideas?
+Lindsey
+
+[Attachment: Facebook ad screenshot — "St. Joan of Arc Parish School" sponsored ad with garbled AI-generated copy beginning "In the following year, see a school where your son has been haunted by some such as the `ad text and investigate further to more about the content..." and ending with the leaked LLM template token "<|start_header_id|>assistant". Image at bottom is legitimate SJOA Education Center photo with kids walking in. CTA: "Nurture Faith & Mind in 3K-8th Grade"]
+
+-----------------------------------------
+
+From: Mark McArthey <markm@learnedgeek.com>
+To: Lindsey Muchka <lindseymuchka@gmail.com>
+CC: Lindsey Lezama <lindsey.lezama@gmail.com>, "St. Joan of Arc School" <school-office@scsjcluster.org>
+Sent: May 5, 2026, 8:41 AM
+Subject: Re: Fw: Facebook hacked ?
+
+Hi Lindsey,
+
+Thanks for looping me in. I took a look at the screenshot and have a pretty good idea of what happened — the good news is this appears to be an ad platform issue rather than anything affecting the website or internal systems.
+
+The garbled text in the ad is a telltale sign that someone used a shady AI-based ad tool, and the output got completely mangled. The important question right now is whether someone gained unauthorized access to the Facebook page's ad account, or whether this was a spoofed/lookalike page running the ad independently.
+
+Here are the steps I'd recommend taking right away:
+
+1. Log into Facebook Business Suite and go to Ads Manager — check whether any active ads are running that don't look familiar. If anything seems off, pause or delete it immediately.
+2. While in Business Suite, go to Settings → People and look for any account or admin access that shouldn't be there. Remove anything suspicious.
+3. Change the Facebook page password and make sure two-factor authentication is turned on if it isn't already.
+4. For reporting — since this involves the page's name and identity, the best path is to submit a Business Support request directly at facebook.com/business/help rather than a standard user report. That will get it in front of the right team.
+
+For the parent who reported it — the ad looks alarming, but the content doesn't reflect anything from our actual systems or communications. Totally understandable that it raised a red flag, and it's good they reported it.
+
+Let me know what turns up in Ads Manager, and feel free to reach out if you need help walking through any of these steps.
+
+Mark
+
+-----------------------------------------
+
+From: Mark McArthey <markm@learnedgeek.com>
+To: Lindsey Muchka <lindseymuchka@gmail.com>
+CC: Lindsey Lezama <lindsey.lezama@gmail.com>, "St. Joan of Arc School" <school-office@scsjcluster.org>
+Sent: May 5, 2026, 9:21 AM
+Subject: Re: Fw: Facebook hacked ?
+
+Hi Lindsey,
+
+Quick update — I searched the Facebook Ad Library (facebook.com/ads/library) for "St. Joan of Arc Parish School" and everything looks clean. There are about 8 active ads showing, all with legitimate copy, proper school photos, and consistent branding. Nothing resembling the corrupted ad the parent reported.
+
+The best guess is that the bad ad either ran briefly and was pulled by Meta automatically, or had such limited reach that it cycled out on its own. Either way, it's no longer showing in the library, which unfortunately means there's no ID to formally report it — frustrating, but not uncommon in these situations.
+
+As a precaution, two quick things worth verifying:
+
+1. Go to Facebook Business Suite → Settings → People. Confirm everyone listed has a name and role you recognize. Remove anything unfamiliar.
+2. While you're there, check that two-factor authentication is enabled for all admin accounts under Settings → Security.
+
+Both steps are quick and will help make sure this can't happen again.
+
+Let me know if anything looks off!
+
+Mark
+
+-----------------------------------------
+
+From: Lindsey Muchka <lindseymuchka@gmail.com>
+To: Mark McArthey <markm@learnedgeek.com>, "St. Joan of Arc School" <school-office@scsjcluster.org>
+CC: Lindsey Lezama <lindsey.lezama@gmail.com>
+Sent: May 5, 2026, 12:11 PM
+Subject: Re: Fw: Facebook hacked ?
+
+Hi Everyone -
+
+Please see image below... Shannon, Lindsey and Dana - You will need to turn on 2 factor authentication on your personal accounts so that they are secure on the school pages... Shannon, thank you for updating the settings!
+Mark, everyone listed is known. We just had another AI Ad come through - You can tell because now the background of this image has changed to a field.
+Shannon saw another time and reported it. I have not seen this come through, but will report as well if I do.
+
+[Attachment: Facebook Business Suite People page screenshot — 6 entries, all "Full control / Everything":
+- Lindsey Lezama (lindsey.lezama@gmail.com) — Active May 5, 2026 — 2FA NOT on
+- DANA MCEVOY (dmcevoy@scsjcluster.org) — Active Apr 22, 2026 — 2FA NOT on
+- Lindsey Muchka (lindseymuchka@gmail.com) — Active May 5, 2026 — (you)
+- Josiah Reimers (josiah@bokehfilmproduction.com) — Active May 4, 2026
+- Shannon Howell — Active May 5, 2026 — 2FA NOT on
+- IG St. Joan of Arc (@sjoanashotah) — Inactive]
+
+-----------------------------------------
+
+From: Mark McArthey <markm@learnedgeek.com>
+To: Lindsey Muchka <lindseymuchka@gmail.com>
+CC: "St. Joan of Arc School" <school-office@scsjcluster.org>, Lindsey Lezama <lindsey.lezama@gmail.com>
+Sent: May 5, 2026, 1:17 PM
+Subject: Re: Fw: Facebook hacked ?
+
+Hi Everyone,
+
+Glad the People list checked out and that 2FA is being addressed — that's an important step.
+
+One thing worth following up on: the corrupted ads have a very specific pattern — same broken text, cycling background images, appearing repeatedly — that points strongly toward an automated AI ad generation tool running variants without human review, rather than an account breach.
+
+Lindsey, would you be able to check in with Josiah at Bokeh to see if he has any automated or AI-based ad tools connected to the page? If something is running on his end and misbehaving, pausing or disconnecting it should stop the ads immediately.
+
+Thanks!
+Mark
+
+-----------------------------------------
+
+From: Josiah Reimers <josiah@bokehfilmproduction.com>
+To: Andres Lezama <ALezama@bycotileandfloor.com>, markm@learnedgeek.com, lindsey.lezama@gmail.com
+Sent: May 5, 2026, 2:58 PM
+Subject: Re: Fwd: Fw: Facebook hacked ?
+
+I have all paid ads for St Joan of Arc turned off right now while we sort this through. All 8 of those ads that you referenced are being run from my end, and as you saw, none of the ad text copy is anywhere close to what is in those screenshots that were captured this morning. Definitely the photos are ones we have been running, though.
+
+It's not clear from my end where the source would be of those ads.
+
+Josiah Reimers
