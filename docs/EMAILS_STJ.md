@@ -919,3 +919,25 @@ I have all paid ads for St Joan of Arc turned off right now while we sort this t
 It's not clear from my end where the source would be of those ads.
 
 Josiah Reimers
+
+-----------------------------------------
+
+From: Mark McArthey <markm@learnedgeek.com>
+To: Josiah Reimers <josiah@bokehfilmproduction.com>
+CC: Andres Lezama <ALezama@bycotileandfloor.com>, Lindsey Lezama <lindsey.lezama@gmail.com>, Lindsey Muchka <lindseymuchka@gmail.com>
+Sent: May 5, 2026
+Subject: Re: St. Joan of Arc Facebook Ads
+
+Hi Josiah,
+
+Thanks for jumping on this quickly and pausing the ads.
+
+Glad to hear the copy you're running is clean on your end. One thing worth checking regardless: do you have any third-party platforms connected to the Meta Business account? Things like ad management, scheduling, or optimization tools, or even tools that were set up a while back and aren't top of mind.
+
+The reason I ask is that the corrupted ads are using the same photos you've been running, which suggests something with access to those creative assets is generating variants autonomously. These tools sometimes produce and publish content without surfacing it for review, so it's possible something is running in the background that nobody is actively watching.
+
+If you can check under Meta Business Suite → Business Settings → Integrations (or Connected Apps — Meta moves these around), that will help us narrow down whether anything has publishing permissions that shouldn't.
+
+Let us know what turns up.
+
+Mark
