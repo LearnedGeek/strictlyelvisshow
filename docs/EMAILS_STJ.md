@@ -955,3 +955,27 @@ Good suggestion. I don't work with any external ai apps for scheduling, manageme
 Facebook does have its own internal Advantage+ creative enhancements that was turned on for the ads. I highly doubt that is to blame, though...
 
 Josiah Reimers
+
+-----------------------------------------
+
+From: Mark McArthey <markm@learnedgeek.com>
+To: Josiah Reimers <josiah@bokehfilmproduction.com>
+CC: Andres Lezama <ALezama@bycotileandfloor.com>, Lindsey Lezama <lindsey.lezama@gmail.com>, Lindsey Muchka <lindseymuchka@gmail.com>
+Sent: May 5, 2026
+Subject: Re: St. Joan of Arc Facebook Ads
+
+Hi Josiah,
+
+Thanks for digging in — and Zapier-to-inbox is benign, so that's good to rule out.
+
+On Advantage+, I'd actually push back gently here. The pattern fits it almost perfectly:
+
+- "Text variations" in Advantage+ keeps your original creative assets but rewrites the copy around them — which matches exactly what we're seeing (same photos, mangled new text).
+- The `<|start_header_id|>assistant` token that appeared in one of the ads is a chat template artifact from Meta's own LLaMA models. It only leaks through when an internal AI text pipeline fails to strip its formatting — external tools wouldn't produce that exact string.
+- Advantage+ has had recurring public complaints in the ad ops community about generating garbled AI text, particularly with longer copy.
+
+I'd recommend disabling Advantage+ creative enhancements (specifically the text/copy options) on all SJOA campaigns before resuming. If bad ads stop appearing, we've confirmed the source. If they keep appearing, we know to look elsewhere — but I'd be very surprised.
+
+Happy to jump on a quick call if it's easier to walk through together.
+
+Mark
