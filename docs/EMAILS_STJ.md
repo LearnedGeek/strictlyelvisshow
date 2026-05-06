@@ -941,3 +941,17 @@ If you can check under Meta Business Suite → Business Settings → Integration
 Let us know what turns up.
 
 Mark
+
+-----------------------------------------
+
+From: Josiah Reimers <josiah@bokehfilmproduction.com>
+To: Mark McArthey <markm@learnedgeek.com>
+CC: Andres Lezama <ALezama@bycotileandfloor.com>, lindsey.lezama@gmail.com, Lindsey Muchka <lindseymuchka@gmail.com>
+Sent: May 5, 2026, 8:43 PM
+Subject: Re: Fwd: Fw: Facebook hacked ?
+
+Good suggestion. I don't work with any external ai apps for scheduling, management, or optimization aside from Zapier which forwards our inbound leads from the ads into Angie's email inbox.
+
+Facebook does have its own internal Advantage+ creative enhancements that was turned on for the ads. I highly doubt that is to blame, though...
+
+Josiah Reimers
