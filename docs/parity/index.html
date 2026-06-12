@@ -78,9 +78,34 @@
 
   <!-- Top header bar -->
   <header class="bg-navy text-paper">
-    <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between text-sm">
-      <span class="font-stamp tracking-widest text-paper-light">EST. SOUTHEASTERN WISCONSIN</span>
-      <a href="tel:2626820990" class="font-display font-semibold tracking-wide hover:text-brass-light transition-colors">
+    <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between text-sm gap-4">
+      <div class="flex items-center gap-3">
+        <!-- Vintage tilted flag, matched to site palette -->
+        <svg viewBox="0 0 60 36" width="44" height="26" xmlns="http://www.w3.org/2000/svg"
+             aria-label="American flag" role="img"
+             style="transform: rotate(-4deg); filter: drop-shadow(2px 2px 0 rgba(0,0,0,0.45));">
+          <!-- Field of 7 stripes (oxblood + paper-cream) -->
+          <rect x="0" y="0"     width="60" height="36"   fill="#7a1a1a"/>
+          <rect x="0" y="5.14"  width="60" height="5.14" fill="#ebe0c2"/>
+          <rect x="0" y="15.43" width="60" height="5.14" fill="#ebe0c2"/>
+          <rect x="0" y="25.71" width="60" height="5.14" fill="#ebe0c2"/>
+          <!-- Canton (navy) over top-left -->
+          <rect x="0" y="0" width="25" height="20.5" fill="#1e2a44"/>
+          <!-- Brass stars (2 rows of 3) -->
+          <g fill="#c79a2e">
+            <circle cx="6"    cy="6"  r="1.5"/>
+            <circle cx="12.5" cy="6"  r="1.5"/>
+            <circle cx="19"   cy="6"  r="1.5"/>
+            <circle cx="6"    cy="14" r="1.5"/>
+            <circle cx="12.5" cy="14" r="1.5"/>
+            <circle cx="19"   cy="14" r="1.5"/>
+          </g>
+          <!-- Subtle weather/wear: thin diagonal stroke + faint flagpole hint on left -->
+          <rect x="0" y="0" width="1.2" height="36" fill="#a87f17" opacity="0.55"/>
+        </svg>
+        <span class="font-stamp tracking-widest text-paper-light hidden sm:inline">EST. SOUTHEASTERN WISCONSIN</span>
+      </div>
+      <a href="tel:2626820990" class="font-display font-semibold tracking-wide hover:text-brass-light transition-colors whitespace-nowrap">
         ☏ (262) 682-0990
       </a>
     </div>
