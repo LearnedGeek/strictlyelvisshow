@@ -7,242 +7,359 @@
   <meta name="description" content="Veteran-owned IT services in Burlington, WI, serving Southeastern Wisconsin. Hardware, networking, security cameras, smart home, and ongoing support. Fair, fast, 100% recommended.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Special+Elite&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            navy: { 50:'#f0f4f8', 100:'#d9e2ec', 600:'#334e68', 700:'#243b53', 800:'#102a43', 900:'#0a1f33' },
-            accent: { DEFAULT: '#b91c1c', hover: '#991b1b' }
+            paper:   { DEFAULT: '#f5ecd7', dark: '#ebe0c2', light: '#faf3e0' },
+            ink:     { DEFAULT: '#1f1c18', soft: '#3d362c', mute: '#6b6253' },
+            oxblood: { DEFAULT: '#7a1a1a', dark: '#5c1010', light: '#9a2828' },
+            brass:   { DEFAULT: '#a87f17', dark: '#8a6712', light: '#c79a2e' },
+            olive:   { DEFAULT: '#4a5235', dark: '#363c26', light: '#6a7351' },
+            navy:    { DEFAULT: '#1e2a44', dark: '#121a2c' }
           },
-          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
+          fontFamily: {
+            display:    ['Oswald', 'sans-serif'],
+            serif:      ['Lora', 'Georgia', 'serif'],
+            stamp:      ['"Special Elite"', 'Courier New', 'monospace'],
+            body:       ['"Source Sans 3"', 'system-ui', 'sans-serif']
+          }
         }
       }
     }
   </script>
   <style>
     html { scroll-behavior: smooth; }
-    body { font-family: 'Inter', system-ui, sans-serif; }
+    body {
+      font-family: 'Source Sans 3', system-ui, sans-serif;
+      background-color: #f5ecd7;
+      color: #1f1c18;
+      background-image:
+        radial-gradient(rgba(122, 26, 26, 0.04) 1px, transparent 1px),
+        radial-gradient(rgba(31, 28, 24, 0.025) 1px, transparent 1px);
+      background-size: 22px 22px, 17px 17px;
+      background-position: 0 0, 8px 11px;
+    }
+    .stamp-head { font-family: 'Oswald', sans-serif; letter-spacing: 0.02em; text-transform: uppercase; }
+    .badge-stamp {
+      font-family: 'Special Elite', monospace;
+      letter-spacing: 0.08em;
+      border: 2px solid currentColor;
+      padding: 0.35rem 0.85rem;
+      display: inline-block;
+      transform: rotate(-1.5deg);
+      position: relative;
+    }
+    .ink-underline {
+      background-image: linear-gradient(transparent 65%, rgba(122, 26, 26, 0.4) 65%, rgba(122, 26, 26, 0.4) 95%, transparent 95%);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      padding: 0 0.15em;
+    }
+    .stitch-divider {
+      height: 6px;
+      background: repeating-linear-gradient(90deg, #7a1a1a 0, #7a1a1a 14px, transparent 14px, transparent 22px);
+      opacity: 0.85;
+    }
+    .stars-strip {
+      background-image: radial-gradient(circle at 50% 50%, #a87f17 0, #a87f17 1.5px, transparent 2px);
+      background-size: 18px 8px;
+      height: 12px;
+    }
+    .tilt-neg { transform: rotate(-2.5deg); }
+    .tilt-pos { transform: rotate(1.5deg); }
+    .poster-shadow { box-shadow: 4px 4px 0 rgba(31, 28, 24, 0.85); }
   </style>
 </head>
-<body class="bg-white text-navy-800">
+<body>
 
-  <!-- Header -->
-  <header class="bg-navy-800 text-white sticky top-0 z-50 shadow-md">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="#top" class="flex items-center gap-3">
-        <span class="text-xl font-bold tracking-tight">Parity "IT" Services</span>
-      </a>
-      <a href="tel:2626820990" class="bg-accent hover:bg-accent-hover text-white font-semibold px-5 py-2.5 rounded-md transition-colors text-sm md:text-base">
-        Call (262) 682-0990
+  <!-- Top header bar -->
+  <header class="bg-navy text-paper">
+    <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between text-sm">
+      <span class="font-stamp tracking-widest text-paper-light">EST. SOUTHEASTERN WISCONSIN</span>
+      <a href="tel:2626820990" class="font-display font-semibold tracking-wide hover:text-brass-light transition-colors">
+        ☏ (262) 682-0990
       </a>
     </div>
+    <div class="stitch-divider"></div>
   </header>
 
   <!-- Hero -->
-  <section id="top" class="bg-gradient-to-br from-navy-800 to-navy-900 text-white">
-    <div class="max-w-5xl mx-auto px-6 py-20 md:py-28 text-center">
-      <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-1.5 mb-6 text-sm font-medium">
-        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-        Proudly Veteran-Owned
+  <section id="top" class="relative overflow-hidden">
+    <div class="absolute inset-x-0 top-0 stars-strip"></div>
+    <div class="absolute inset-x-0 bottom-0 stars-strip"></div>
+
+    <div class="max-w-6xl mx-auto px-6 py-20 md:py-24 grid md:grid-cols-5 gap-10 items-center">
+      <div class="md:col-span-3">
+        <div class="text-oxblood badge-stamp mb-6">
+          ✪ Wisconsin Veteran-Owned ✪
+        </div>
+        <h1 class="font-display font-bold text-ink leading-[0.95] mb-6 text-5xl md:text-7xl">
+          Southeastern Wisconsin's<br>
+          <span class="text-oxblood">IT Repair Force</span>
+        </h1>
+        <p class="font-serif text-xl md:text-2xl text-ink-soft mb-3 italic max-w-xl leading-snug">
+          One call. One person who actually picks up.<br>One problem, handled.
+        </p>
+        <p class="font-body text-lg text-ink-soft max-w-xl mb-8">
+          Hardware, networks, security cameras, smart-home setups, and the kind of ongoing support that doesn't route you through three menus before you reach a human. Fair pricing. Honest answers. Done right the first time.
+        </p>
+        <div class="flex flex-wrap gap-4 items-center">
+          <a href="tel:2626820990" class="bg-oxblood hover:bg-oxblood-dark text-paper font-display font-semibold text-lg tracking-wide px-7 py-4 poster-shadow transition-transform hover:-translate-y-0.5">
+            CALL (262) 682-0990
+          </a>
+          <a href="#services" class="font-display font-semibold text-lg tracking-wide text-ink underline decoration-brass decoration-2 underline-offset-4 hover:text-oxblood transition-colors">
+            See what we do →
+          </a>
+        </div>
+        <div class="mt-8 flex items-center gap-3 text-ink-soft">
+          <div class="flex gap-0.5 text-brass-dark text-xl">★★★★★</div>
+          <span class="font-stamp text-sm tracking-wider">100% RECOMMENDED — 6 OF 6 REVIEWS</span>
+        </div>
       </div>
-      <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-5">
-        Southeastern Wisconsin's<br>IT Repair Force
-      </h1>
-      <p class="text-lg md:text-xl text-navy-100 max-w-2xl mx-auto mb-8">
-        Hardware, networking, security cameras, smart home, and ongoing support — done right, done fast, done fair. One call for whatever's broken.
-      </p>
-      <div class="inline-flex items-center gap-2 text-sm text-navy-100 mb-8">
-        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-        <span><strong>100% recommend</strong> on Facebook</span>
-      </div>
-      <div class="flex flex-col sm:flex-row gap-3 justify-center">
-        <a href="tel:2626820990" class="bg-accent hover:bg-accent-hover text-white font-semibold px-7 py-3.5 rounded-md transition-colors">Call (262) 682-0990</a>
-        <a href="#services" class="bg-white/10 hover:bg-white/15 border border-white/30 text-white font-semibold px-7 py-3.5 rounded-md transition-colors">See What We Do</a>
+
+      <!-- Right side — poster medallion -->
+      <div class="md:col-span-2 flex justify-center">
+        <div class="relative">
+          <div class="bg-oxblood text-paper rounded-full w-72 h-72 md:w-80 md:h-80 flex flex-col items-center justify-center text-center p-8 poster-shadow tilt-neg">
+            <div class="font-stamp text-xs tracking-[0.3em] text-paper-light mb-2">SINCE DAY ONE</div>
+            <div class="font-display text-6xl md:text-7xl font-bold leading-none">100%</div>
+            <div class="font-display font-semibold text-xl tracking-wide mt-2">RECOMMENDED</div>
+            <div class="w-12 h-px bg-paper my-3"></div>
+            <div class="font-serif italic text-sm">"They make IT possible."</div>
+          </div>
+          <div class="absolute -top-3 -right-3 bg-brass text-ink font-stamp text-xs tracking-widest px-3 py-2 tilt-pos poster-shadow">
+            EST. BURLINGTON, WI
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Trust strip -->
-  <section class="bg-navy-50 border-y border-navy-100">
-    <div class="max-w-5xl mx-auto px-6 py-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm md:text-base text-navy-700 font-medium">
-      <div>Wisconsin Veteran-Owned</div>
-      <div>Based in Burlington, WI</div>
-      <div>Always Available</div>
-      <div>100% Recommended</div>
+  <!-- Mission strip -->
+  <section class="bg-ink text-paper-light py-16 px-6 relative">
+    <div class="absolute inset-x-0 top-0 stars-strip opacity-60"></div>
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="font-stamp text-brass-light text-sm tracking-[0.3em] mb-4">— OUR MISSION —</div>
+      <p class="font-serif text-2xl md:text-3xl italic leading-relaxed text-paper">
+        We're a <span class="text-brass-light font-semibold not-italic">veteran-owned, two-person operation</span> based in Burlington, serving folks across Southeastern Wisconsin. The kind of IT shop you call when the big-box "Geek" desk gives up and the corporate help line keeps you on hold.
+      </p>
+      <p class="font-body text-lg text-paper-dark mt-6 max-w-2xl mx-auto">
+        We pick up the phone. We do the work. We charge what's fair. That's the whole pitch.
+      </p>
     </div>
   </section>
 
   <!-- Services -->
   <section id="services" class="py-20 px-6">
-    <div class="max-w-6xl mx-auto">
-      <div class="text-center mb-14">
-        <p class="text-accent font-semibold text-sm uppercase tracking-widest mb-3">What We Do</p>
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Hardware, Infrastructure & Everything In Between</h2>
-        <p class="text-navy-600 text-lg max-w-2xl mx-auto">Whether it's a single broken PC or a full office network, we handle it.</p>
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16">
+        <div class="font-stamp text-oxblood text-sm tracking-[0.3em] mb-3">— FIELD CAPABILITIES —</div>
+        <h2 class="font-display font-bold text-5xl md:text-6xl text-ink leading-tight">
+          What We <span class="ink-underline">Handle</span>
+        </h2>
+        <p class="font-serif text-lg italic text-ink-soft mt-5 max-w-xl mx-auto">
+          The short list. If it plugs in, connects, watches, or wires together — odds are we work on it.
+        </p>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid md:grid-cols-2 gap-x-12 gap-y-10">
 
-        <div class="bg-white border border-navy-100 rounded-xl p-7 hover:shadow-lg transition-shadow">
-          <div class="w-12 h-12 bg-navy-50 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Hardware</h3>
-          <p class="text-navy-600 leading-relaxed">Computer repairs, upgrades, peripherals, cabling, and replacements. If it plugs in, we work on it.</p>
+        <div class="border-l-4 border-oxblood pl-6">
+          <div class="font-stamp text-brass-dark text-xs tracking-widest mb-2">FIELD 01</div>
+          <h3 class="font-display font-bold text-2xl text-ink mb-3">Hardware & Repair</h3>
+          <p class="font-body text-ink-soft leading-relaxed">
+            Computer repair, upgrades, peripherals, cabling, replacements. The hands-on stuff. If it plugs in, we work on it. If it stopped working, we fix it — or tell you straight when it's time to replace it.
+          </p>
         </div>
 
-        <div class="bg-white border border-navy-100 rounded-xl p-7 hover:shadow-lg transition-shadow">
-          <div class="w-12 h-12 bg-navy-50 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"/></svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Networking & Infrastructure</h3>
-          <p class="text-navy-600 leading-relaxed">Home and small-business networks, Wi-Fi coverage that actually reaches the basement, wired drops, switches, and routers configured right.</p>
+        <div class="border-l-4 border-oxblood pl-6">
+          <div class="font-stamp text-brass-dark text-xs tracking-widest mb-2">FIELD 02</div>
+          <h3 class="font-display font-bold text-2xl text-ink mb-3">Networks & Infrastructure</h3>
+          <p class="font-body text-ink-soft leading-relaxed">
+            Home and small-business networks built to actually work. Wi-Fi that reaches the basement and the back porch. Wired drops, switches, routers — configured properly the first time.
+          </p>
         </div>
 
-        <div class="bg-white border border-navy-100 rounded-xl p-7 hover:shadow-lg transition-shadow">
-          <div class="w-12 h-12 bg-navy-50 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Security & Cameras</h3>
-          <p class="text-navy-600 leading-relaxed">Camera installation and configuration for homes and businesses. Live monitoring, motion alerts, secure remote viewing.</p>
+        <div class="border-l-4 border-oxblood pl-6">
+          <div class="font-stamp text-brass-dark text-xs tracking-widest mb-2">FIELD 03</div>
+          <h3 class="font-display font-bold text-2xl text-ink mb-3">Security & Cameras</h3>
+          <p class="font-body text-ink-soft leading-relaxed">
+            Camera systems for homes, shops, and small businesses. Installed neat, configured securely, monitored from your phone. Peace of mind, no monthly subscription required.
+          </p>
         </div>
 
-        <div class="bg-white border border-navy-100 rounded-xl p-7 hover:shadow-lg transition-shadow">
-          <div class="w-12 h-12 bg-navy-50 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Smart Home</h3>
-          <p class="text-navy-600 leading-relaxed">Connected devices, integrations, voice assistants, thermostats, locks — set up to actually work together, not fight each other.</p>
+        <div class="border-l-4 border-oxblood pl-6">
+          <div class="font-stamp text-brass-dark text-xs tracking-widest mb-2">FIELD 04</div>
+          <h3 class="font-display font-bold text-2xl text-ink mb-3">Smart Home</h3>
+          <p class="font-body text-ink-soft leading-relaxed">
+            Thermostats, locks, lights, voice assistants — set up to actually work together instead of fighting each other. We sort out the protocols and apps so you don't have to.
+          </p>
         </div>
 
-        <div class="bg-white border border-navy-100 rounded-xl p-7 hover:shadow-lg transition-shadow">
-          <div class="w-12 h-12 bg-navy-50 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Maintenance & Support</h3>
-          <p class="text-navy-600 leading-relaxed">Backups, tune-ups, data recovery, virus removal, remote help, and ongoing service contracts for folks who want it just handled.</p>
+        <div class="border-l-4 border-oxblood pl-6">
+          <div class="font-stamp text-brass-dark text-xs tracking-widest mb-2">FIELD 05</div>
+          <h3 class="font-display font-bold text-2xl text-ink mb-3">Maintenance & Support</h3>
+          <p class="font-body text-ink-soft leading-relaxed">
+            Backups, tune-ups, data recovery, virus removal, remote help when you can't wait. Ongoing service contracts for folks who'd rather just have someone on call.
+          </p>
         </div>
 
-        <div class="bg-white border border-navy-100 rounded-xl p-7 hover:shadow-lg transition-shadow">
-          <div class="w-12 h-12 bg-navy-50 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-navy-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Training & Consulting</h3>
-          <p class="text-navy-600 leading-relaxed">One-on-one walkthroughs, small-group clinics, and straight-talk advice for figuring out what you actually need.</p>
+        <div class="border-l-4 border-oxblood pl-6">
+          <div class="font-stamp text-brass-dark text-xs tracking-widest mb-2">FIELD 06</div>
+          <h3 class="font-display font-bold text-2xl text-ink mb-3">Training & Straight Talk</h3>
+          <p class="font-body text-ink-soft leading-relaxed">
+            One-on-one walkthroughs, small-group clinics, plain-English advice on what you actually need. We won't sell you a server when a router will do.
+          </p>
         </div>
 
+      </div>
+
+      <div class="mt-14 text-center font-serif italic text-ink-mute">
+        Not on the list? <a href="#contact" class="text-oxblood underline decoration-brass decoration-2 underline-offset-2 hover:text-oxblood-dark">Ask anyway.</a> We've ended up running cable, mounting TVs, and once even helped build a deck. We figure it out.
       </div>
     </div>
   </section>
 
-  <!-- Why us -->
-  <section class="bg-navy-800 text-white py-20 px-6">
+  <!-- Why Us -->
+  <section class="bg-paper-dark py-20 px-6 relative">
+    <div class="absolute inset-x-0 top-0 stitch-divider"></div>
+    <div class="absolute inset-x-0 bottom-0 stitch-divider"></div>
     <div class="max-w-5xl mx-auto">
       <div class="text-center mb-14">
-        <p class="text-accent font-semibold text-sm uppercase tracking-widest mb-3">Why Parity</p>
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">We Pick Up the Phone. We Figure It Out.</h2>
+        <div class="font-stamp text-oxblood text-sm tracking-[0.3em] mb-3">— THE THREE PROMISES —</div>
+        <h2 class="font-display font-bold text-5xl md:text-6xl text-ink leading-tight">Why <span class="text-oxblood">Parity</span></h2>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-8">
-        <div>
-          <h3 class="text-xl font-bold mb-3 text-white">One Call, Many Hats</h3>
-          <p class="text-navy-100 leading-relaxed">Hardware, network, cameras, smart-home — instead of calling three different vendors, call us. We've been the only IT guy a lot of folks have ever needed.</p>
+      <div class="grid md:grid-cols-3 gap-10">
+
+        <div class="text-center">
+          <div class="font-display text-7xl text-brass font-bold mb-2">I.</div>
+          <h3 class="font-display font-bold text-2xl text-ink mb-3 tracking-wide">YOU CALL, WE ANSWER</h3>
+          <p class="font-serif text-ink-soft leading-relaxed">
+            No hold music. No tier-1, tier-2 runaround. A real person who knows your setup and remembers your name.
+          </p>
         </div>
-        <div>
-          <h3 class="text-xl font-bold mb-3 text-white">Fair & Honest</h3>
-          <p class="text-navy-100 leading-relaxed">No upsells you don't need. No "tier 1 tier 2" runaround. You get a real answer, a real price, and we get to work.</p>
+
+        <div class="text-center">
+          <div class="font-display text-7xl text-brass font-bold mb-2">II.</div>
+          <h3 class="font-display font-bold text-2xl text-ink mb-3 tracking-wide">FAIR & STRAIGHT</h3>
+          <p class="font-serif text-ink-soft leading-relaxed">
+            We charge what the job's worth. No upsells you don't need. If we can't help, we'll tell you who can.
+          </p>
         </div>
-        <div>
-          <h3 class="text-xl font-bold mb-3 text-white">Veteran-Owned, Locally Run</h3>
-          <p class="text-navy-100 leading-relaxed">Proudly veteran-owned and based in Burlington, serving Southeastern Wisconsin. Your money stays local and your problem gets solved by someone who lives down the road.</p>
+
+        <div class="text-center">
+          <div class="font-display text-7xl text-brass font-bold mb-2">III.</div>
+          <h3 class="font-display font-bold text-2xl text-ink mb-3 tracking-wide">LOCAL & PROUD</h3>
+          <p class="font-serif text-ink-soft leading-relaxed">
+            Veteran-owned, Burlington-based, the kind of small shop where your money stays in town and your problem gets solved by someone who lives down the road.
+          </p>
         </div>
+
       </div>
     </div>
   </section>
 
   <!-- Who we serve -->
-  <section class="py-20 px-6 bg-navy-50">
-    <div class="max-w-5xl mx-auto text-center">
-      <p class="text-accent font-semibold text-sm uppercase tracking-widest mb-3">Who We Help</p>
-      <h2 class="text-3xl md:text-4xl font-bold mb-6">Small Businesses, Homeowners, and Everyone In Between</h2>
-      <p class="text-navy-700 text-lg max-w-3xl mx-auto leading-relaxed">
-        From the small business that just needs their Wi-Fi to stop dropping, to the homeowner setting up cameras for the first time, to the retiree whose computer is making "that noise" again — we work with all of them. No job too small, no question too basic.
+  <section class="py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="font-stamp text-oxblood text-sm tracking-[0.3em] mb-4">— WHO WE SERVE —</div>
+      <p class="font-serif text-2xl md:text-3xl italic text-ink leading-snug">
+        "The small business whose Wi-Fi keeps dropping. The homeowner setting up cameras for the first time. The retiree whose computer is making <span class="text-oxblood">that noise</span> again."
+      </p>
+      <p class="font-body text-lg text-ink-soft mt-8 max-w-2xl mx-auto">
+        We work with all of them. No job too small. No question too basic. Same fair rate.
       </p>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="py-20 px-6">
-    <div class="max-w-4xl mx-auto">
+  <section id="contact" class="bg-ink text-paper-light py-20 px-6 relative">
+    <div class="absolute inset-x-0 top-0 stars-strip"></div>
+
+    <div class="max-w-5xl mx-auto">
       <div class="text-center mb-12">
-        <p class="text-accent font-semibold text-sm uppercase tracking-widest mb-3">Get in Touch</p>
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready When You Are</h2>
-        <p class="text-navy-600 text-lg">A quick call is the fastest way to get an answer.</p>
+        <div class="font-stamp text-brass-light text-sm tracking-[0.3em] mb-3">— REPORT IN —</div>
+        <h2 class="font-display font-bold text-5xl md:text-6xl text-paper leading-tight">Let's Fix It.</h2>
+        <p class="font-serif text-lg italic text-paper-dark mt-4">A quick call is the fastest way through.</p>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="bg-navy-800 text-white rounded-xl p-8">
-          <h3 class="text-xl font-bold mb-6">Reach Out</h3>
-          <div class="space-y-5">
-            <div>
-              <p class="text-navy-100 text-sm uppercase tracking-wider mb-1">Phone</p>
-              <a href="tel:2626820990" class="text-2xl font-bold hover:text-accent transition-colors">(262) 682-0990</a>
-            </div>
-            <div>
-              <p class="text-navy-100 text-sm uppercase tracking-wider mb-1">Email</p>
-              <a href="mailto:itservices@parity0111.com" class="text-lg font-semibold hover:text-accent transition-colors break-all">itservices@parity0111.com</a>
-            </div>
-            <div>
-              <p class="text-navy-100 text-sm uppercase tracking-wider mb-1">Service Area</p>
-              <p class="text-lg">Southeastern Wisconsin<br>Based in Burlington, WI</p>
-            </div>
-            <div>
-              <p class="text-navy-100 text-sm uppercase tracking-wider mb-1">Hours</p>
-              <p class="text-lg">Always available — call or message anytime</p>
-            </div>
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+
+        <div class="bg-paper text-ink p-8 poster-shadow">
+          <div class="font-stamp text-oxblood text-xs tracking-[0.3em] mb-4">— DIRECT LINE —</div>
+
+          <div class="mb-6">
+            <div class="font-stamp text-ink-mute text-xs tracking-wider mb-1">PHONE</div>
+            <a href="tel:2626820990" class="font-display font-bold text-3xl text-oxblood hover:text-oxblood-dark transition-colors">
+              (262) 682-0990
+            </a>
+          </div>
+
+          <div class="mb-6">
+            <div class="font-stamp text-ink-mute text-xs tracking-wider mb-1">EMAIL</div>
+            <a href="mailto:itservices@parity0111.com" class="font-display font-semibold text-lg text-ink hover:text-oxblood transition-colors break-all">
+              itservices@parity0111.com
+            </a>
+          </div>
+
+          <div class="mb-6">
+            <div class="font-stamp text-ink-mute text-xs tracking-wider mb-1">SERVICE AREA</div>
+            <p class="font-serif text-lg">Southeastern Wisconsin<br><span class="text-ink-soft">Based in Burlington, WI</span></p>
+          </div>
+
+          <div>
+            <div class="font-stamp text-ink-mute text-xs tracking-wider mb-1">HOURS</div>
+            <p class="font-serif text-lg">Always available — call or message anytime.</p>
           </div>
         </div>
 
-        <div class="bg-white border border-navy-100 rounded-xl p-8">
-          <h3 class="text-xl font-bold mb-6">Send a Message</h3>
+        <div>
+          <div class="font-stamp text-brass-light text-xs tracking-[0.3em] mb-4">— OR DROP A NOTE —</div>
           <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
             <div>
-              <label for="name" class="block text-sm font-semibold text-navy-700 mb-1.5">Name</label>
-              <input type="text" id="name" name="name" required class="w-full px-4 py-2.5 border border-navy-100 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-600">
+              <label for="name" class="block font-stamp text-paper-dark text-xs tracking-wider mb-1.5">NAME</label>
+              <input type="text" id="name" name="name" required class="w-full bg-paper text-ink px-4 py-3 border-2 border-paper focus:outline-none focus:border-brass font-serif">
             </div>
             <div>
-              <label for="email" class="block text-sm font-semibold text-navy-700 mb-1.5">Email</label>
-              <input type="email" id="email" name="email" required class="w-full px-4 py-2.5 border border-navy-100 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-600">
+              <label for="email" class="block font-stamp text-paper-dark text-xs tracking-wider mb-1.5">EMAIL</label>
+              <input type="email" id="email" name="email" required class="w-full bg-paper text-ink px-4 py-3 border-2 border-paper focus:outline-none focus:border-brass font-serif">
             </div>
             <div>
-              <label for="phone" class="block text-sm font-semibold text-navy-700 mb-1.5">Phone</label>
-              <input type="tel" id="phone" name="phone" class="w-full px-4 py-2.5 border border-navy-100 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-600">
+              <label for="phone" class="block font-stamp text-paper-dark text-xs tracking-wider mb-1.5">PHONE</label>
+              <input type="tel" id="phone" name="phone" class="w-full bg-paper text-ink px-4 py-3 border-2 border-paper focus:outline-none focus:border-brass font-serif">
             </div>
             <div>
-              <label for="message" class="block text-sm font-semibold text-navy-700 mb-1.5">What's going on?</label>
-              <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2.5 border border-navy-100 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-600"></textarea>
+              <label for="message" class="block font-stamp text-paper-dark text-xs tracking-wider mb-1.5">WHAT'S GOING ON?</label>
+              <textarea id="message" name="message" rows="4" required class="w-full bg-paper text-ink px-4 py-3 border-2 border-paper focus:outline-none focus:border-brass font-serif"></textarea>
             </div>
-            <button type="submit" class="w-full bg-accent hover:bg-accent-hover text-white font-semibold py-3 rounded-md transition-colors">Send Message</button>
+            <button type="submit" class="w-full bg-oxblood hover:bg-oxblood-light text-paper font-display font-bold tracking-wider text-lg py-3 transition-colors poster-shadow">
+              SEND IT
+            </button>
           </form>
         </div>
+
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-navy-900 text-navy-100 py-8 px-6">
-    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
+  <footer class="bg-oxblood text-paper-light">
+    <div class="stars-strip"></div>
+    <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
       <div>
-        <p class="font-semibold text-white">Parity IT Services</p>
-        <p>Veteran-Owned · Burlington, WI · Serving Southeastern Wisconsin</p>
+        <div class="font-display font-bold text-xl tracking-wide">PARITY "IT" SERVICES</div>
+        <div class="font-stamp text-xs tracking-wider text-paper-dark mt-1">VETERAN-OWNED · BURLINGTON, WI · SOUTHEASTERN WISCONSIN</div>
       </div>
-      <div>
-        <p>&copy; <span id="year"></span> Parity IT Services. All rights reserved.</p>
+      <div class="font-stamp text-xs tracking-wider text-paper-dark">
+        &copy; <span id="year"></span> PARITY "IT" SERVICES · ALL RIGHTS RESERVED
       </div>
     </div>
+    <div class="stars-strip"></div>
     <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </footer>
 
