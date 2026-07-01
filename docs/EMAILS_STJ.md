@@ -1057,3 +1057,54 @@ I've formally requested access through Google, but that triggers a 7-day waiting
 
 Thanks!
 Mark
+
+-----------------------------------------
+
+From: Lindsey Muchka <lindseymuchka@gmail.com>
+To: Mark McArthey <markm@learnedgeek.com>, DANA MCEVOY <dmcevoy@scsjcluster.org>
+Sent: Jun 30, 2026, 6:49 PM
+Subject: Fwd: Your Business Profile on Google is live for St Joan of Arc Parish School
+
+Hi Mark -
+
+Please see forwarded note from Fr Ackmann below. I'm not sure where this other account came from?
+
+Thanks!
+
+---------- Forwarded message ----------
+From: Fr. Ryan Ackmann <fr.ackmann@outlook.com>
+Date: Tue, Jun 30, 2026 at 5:05 PM
+To: DANA MCEVOY <dmcevoy@scsjcluster.org>
+Subject: FW: Your Business Profile on Google is live for St Joan of Arc Parish School
+
+Hi Dana,
+
+I'm just confirming I have control of the SJOA School profile on Google. Let me know after talking with the marketing team whom you'd like added. They would need a gmail or google-powered account. Thanks,
+
+Fr. Ryan Ackmann
+Pastor
+SJ: +1 262 646 8078
+SC: +1 920 474 7000
+
+-----------------------------------------
+
+From: Mark McArthey <markm@learnedgeek.com>
+To: Lindsey Muchka <lindseymuchka@gmail.com>, Dana McEvoy <dmcevoy@scsjcluster.org>
+Sent: Jun 30, 2026, 7:02 PM
+Subject: Re: Your Business Profile on Google is live for St Joan of Arc Parish School
+
+Hi Lindsey and Dana,
+
+Thanks for the quick turnaround from Fr. Ackmann.
+
+The situation is straightforward: there are two Google Business Profiles for the school. Fr. Ackmann's is the verified one Google displays; the one we've spent the last few months optimizing (description, hours, service area, photos, etc.) is now flagged as a duplicate and hidden from Search and Maps.
+
+There are two ways forward:
+
+1. We forfeit our work and start rebuilding everything from scratch inside Fr. Ackmann's profile once he adds us as managers.
+2. Fr. Ackmann removes his profile, ours takes over as the verified one, and we add him as a manager if he wants to stay involved with updates.
+
+Option 2 preserves months of SEO work. Option 1 throws it away and restarts. Either is workable — up to you and Fr. Ackmann.
+
+Thanks,
+Mark
