@@ -1108,3 +1108,83 @@ Option 2 preserves months of SEO work. Option 1 throws it away and restarts. Eit
 
 Thanks,
 Mark
+
+-----------------------------------------
+
+From: Lindsey Muchka <lindseymuchka@gmail.com>
+To: Fr. Ryan Ackmann <fr.ackmann@outlook.com>
+CC: DANA MCEVOY <dmcevoy@scsjcluster.org>, Mark McArthey <markm@learnedgeek.com>
+Sent: Jul 1, 2026, 9:10 AM
+Subject: Re: Your Business Profile on Google is live for St Joan of Arc Parish School
+
+Good Morning, Fr. Ackmann,
+
+First, welcome! Although we haven't had the opportunity to meet personally, I'm excited to have you leading our parish community. My boys were especially eager to see our new priest during your first weekend with us (we were on vacation last week for the playground meet and greet!)!
+
+I wanted to reach out regarding the Google Business Profile for the school. Over the past several months, our team has been working closely with Mark McArthey (copied here) to optimize the school's online presence and improve our visibility in search results. As part of that effort, we have maintained an existing Google Business Profile that has been performing well.
+
+It appears that a newer profile may have been created or claimed, and Google is now identifying our existing school profile as a duplicate. As a result, the established profile has lost visibility, which unfortunately impacts much of the work that has been done to build awareness and improve search rankings.
+
+Would you be open to us reviewing this together? Our hope would be to retain the existing profile and simply add you as a manager so you have full access and oversight. If the newer profile is no longer needed, Google generally provides options to remove or merge duplicate listings, which may help restore the visibility of the original profile.
+
+Please don't feel any pressure to navigate this on your own. Mark and I would be happy to walk through the process with you or assist in any way that's most convenient.
+
+Thank you for your support, and again, welcome to the parish. We're grateful to have you here and look forward to working together.
+
+Warm regards,
+
+Lindsey Muchka
+
+-----------------------------------------
+
+From: Fr. Ryan Ackmann <fr.ackmann@outlook.com>
+To: Lindsey Muchka <lindseymuchka@gmail.com>
+CC: DANA MCEVOY <dmcevoy@scsjcluster.org>, Mark McArthey <markm@learnedgeek.com>
+Sent: Jul 1, 2026, 12:29 PM
+Subject: Re: Your Business Profile on Google is live for St Joan of Arc Parish School
+
+Hi Lindsey,
+
+Thanks for the message. Yes let's get this resolved ASAP. Are you available tonight (Wednesday) after 5pm or tomorrow (Thursday) after 6pm to meet at the St. Joan parish office?
+
+I could also meet Thursday between 10am-12pm.
+
+Thanks,
+
+Fr. Ryan Ackmann
+
+-----------------------------------------
+
+From: Lindsey Muchka <lindseymuchka@gmail.com>
+To: Fr. Ryan Ackmann <fr.ackmann@outlook.com>
+CC: DANA MCEVOY <dmcevoy@scsjcluster.org>, Mark McArthey <markm@learnedgeek.com>
+Sent: Jul 1, 2026, 3:06 PM
+Subject: Re: Your Business Profile on Google is live for St Joan of Arc Parish School
+
+I'll be at school today for the marketing meeting so I will pop over after at 5pm.
+
+See you soon!
+
+-----------------------------------------
+
+From: Lindsey Muchka <lindseymuchka@gmail.com>
+To: Mark McArthey <markm@learnedgeek.com>
+Sent: Jul 1, 2026, 5:22 PM
+Subject: Re: St Joan of Arc Parish School's Business Profile is a duplicate
+
+We've deleted it.
+
+Can you help in re-verifying our account and adding Father as a manager on ours? His email is fr.ackmann@scsjcluster.org.
+
+Thank you! I won't be calling - so no need to hang out by the phone!
+
+-----------------------------------------
+
+From: Mark McArthey <markm@learnedgeek.com>
+To: Lindsey Muchka <lindseymuchka@gmail.com>
+Sent: Jul 1, 2026
+Subject: Re: St Joan of Arc Parish School's Business Profile is a duplicate
+
+Thanks, Lindsey — appreciate you handling that in person. I'll check the profile status, get it re-verified if needed, and add Fr. Ackmann as manager.
+
+Mark
